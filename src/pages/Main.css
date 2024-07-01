@@ -1,0 +1,10 @@
+.mainPage{
+    background-color: blue;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.mainPage img{
+    margin-left: -5%;
+}
