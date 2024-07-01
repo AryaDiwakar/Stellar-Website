@@ -14,32 +14,31 @@
     margin: 2%;
 }
 
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .navbar ul{
     display: flex;
     flex-direction: column;
-    align-items: end;
-    justify-content: space-around;
+    height: 80%;
+    justify-content: center;
 }
 
 .navbar ul a{
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 5%;
 }
 
 header{
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    width: 100%;
-    align-self: flex-end;
-    justify-content: center;
-}
-
-header div{
+    width: 15%;
+    text-align: end;
     margin-right: 1%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
 }

@@ -3,8 +3,22 @@
     display: flex;
     height: 100vh;
     width: 100%;
+    justify-content: space-between;
 }
 
-.mainPage img{
+.sun{
+    /* position: absolute; */
     margin-left: -5%;
+}
+
+.planets{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planets img{
+    width: 20%;
+    height: 20%;
 }
