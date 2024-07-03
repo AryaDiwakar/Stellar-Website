@@ -6,10 +6,12 @@ import Whoops404 from './pages/Whoops404';
 import Newsletter from './pages/Newsletter';
 import Gallery from './pages/Gallery';
 import Events from './pages/Events';
+import Background from './components/Background';
 
 function App() {
   return (
     <div className='body'>
+      <Background />
       <BrowserRouter>
         <Routes>
           <Route index element={<Main />} />

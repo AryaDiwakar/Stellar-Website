@@ -1,23 +1,23 @@
-* {
-    background-color: black;
-}
-
 .mainPage{
     display: flex;
     height: 100vh;
     width: 100%;
     justify-content: space-between;
     position: fixed;
-    top: 0;
-    z-index: 0;
+    z-index: 1;
 }
 
 .intro {
     width: 50%;
     position: absolute;
-    top: 100px;
     left: 25%;
-    z-index: 1;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
+}
+
+.intro section, .intro .introComp{
+    margin: auto;
 }
 
 .sun{
@@ -26,7 +26,6 @@
 
 .planets{
     display: flex;
-    height: 100%;
     justify-content: space-around;
     align-items: center;
 }

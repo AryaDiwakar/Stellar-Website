@@ -11,26 +11,22 @@ import Intro from "../components/Intro";
 export default function Main() {
   return (
     <div>
-    <div className="mainPage">
-      <img src={sun} alt="Sun" className="sun" />
-      <Navbar />
-    </div>
-    <div className="intro">
-    <section className="planets">
-        <img src={earth} alt="earth" />
-        <img src={jupiter} alt="jupiter" />
-        <img src={neptune} alt="neptune" />
-        <img src={saturn} alt="saturn" />
-      </section>
-
-      <Intro />
-      <Intro />
-      <Intro />
-      <Intro />
-      <Intro />
-      <Intro />
-      <Intro />
-    </div>
+      <div className="mainPage">
+        <img src={sun} alt="Sun" className="sun" />
+        <Navbar />
+      </div>
+      <div className="intro">
+        <section className="planets">
+          <img src={earth} alt="earth" />
+          <img src={jupiter} alt="jupiter" />
+          <img src={neptune} alt="neptune" />
+          <img src={saturn} alt="saturn" />
+        </section>
+        <Intro />
+        <Intro />
+        <Intro />
+        <Intro />
+      </div>
     </div>
   );
 }
