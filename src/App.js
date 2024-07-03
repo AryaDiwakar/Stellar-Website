@@ -9,7 +9,7 @@ import Events from './pages/Events';
 
 function App() {
   return (
-    <>
+    <div className='body'>
       <BrowserRouter>
         <Routes>
           <Route index element={<Main />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path='*' element={<Whoops404 />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 };
 
