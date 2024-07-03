@@ -13,16 +13,24 @@ export default function Main() {
     <div>
     <div className="mainPage">
       <img src={sun} alt="Sun" className="sun" />
-      <section className="planets">
+      <Navbar />
+    </div>
+    <div className="intro">
+    <section className="planets">
         <img src={earth} alt="earth" />
         <img src={jupiter} alt="jupiter" />
         <img src={neptune} alt="neptune" />
         <img src={saturn} alt="saturn" />
       </section>
-      <Navbar />
+
+      <Intro />
+      <Intro />
+      <Intro />
+      <Intro />
+      <Intro />
+      <Intro />
+      <Intro />
     </div>
-    <Intro  className="abc"/>
-    <Intro />
     </div>
   );
 }

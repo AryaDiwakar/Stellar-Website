@@ -1,8 +1,23 @@
+* {
+    background-color: black;
+}
+
 .mainPage{
     display: flex;
     height: 100vh;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+
+.intro {
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    z-index: 1;
 }
 
 .sun{
