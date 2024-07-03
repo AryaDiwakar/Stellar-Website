@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './Intro.css';
 
 export default function Intro() {
   return (
-    <div>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolorem beatae itaque quaerat, sed impedit. Totam dolorem magni dolor in? Obcaecati eius, corrupti tempora numquam similique culpa, beatae inventore nemo placeat officia quod assumenda libero. Asperiores error ut nostrum dolorem expedita delectus ducimus, sunt, veritatis magni, ipsum quam impedit? Commodi deserunt laborum nostrum at deleniti in distinctio vero, adipisci incidunt cupiditate delectus hic sit quia magni nemo porro voluptatem necessitatibus iusto ratione, fugit sint error, ipsum eos! Voluptates, magnam? Animi repellat quos dignissimos? Laudantium inventore at in deserunt mollitia voluptates illo explicabo, ipsum odio suscipit voluptas beatae, velit fugit voluptate!
+    <div className='introComp'>
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, in!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accus
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, excepturi?
+            amus temporibus nostrum! Dolores unde aut pariatur, cum accusamus quae dolore!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, numquam.</p>
     </div>
   )
 }

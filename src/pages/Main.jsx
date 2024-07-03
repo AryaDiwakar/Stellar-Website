@@ -21,6 +21,7 @@ export default function Main() {
       </section>
       <Navbar />
     </div>
+    <Intro  className="abc"/>
     <Intro />
     </div>
   );
