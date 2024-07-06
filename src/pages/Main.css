@@ -37,6 +37,11 @@ html {
 
 .planets video {
     width: 20%;
+    transition: all 100ms ease-in-out;
+}
+
+.planets video:hover {
+    width: 25%;
 }
 
 .container {
