@@ -20,9 +20,9 @@ html {
     grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
 }
 
-.intro section, .intro .introComp{
+/* .intro section, .intro .introComp{
     margin: auto;
-}
+} */
 
 .sun{
     margin-left: -5%;
@@ -32,11 +32,11 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 120%;
 }
 
-.planets img{
+.planets video {
     width: 20%;
-    height: 20%;
 }
 
 .container {

@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "./Main.css";
 import sun from "../assests/Sun.png";
-import earth from "../assests/four.jpg";
-import neptune from "../assests/three.jpg";
-import jupiter from "../assests/two.jpg";
-import saturn from "../assests/one.jpg";
+import planet_1 from "../assests/planet 1.mp4";
+import planet_2 from "../assests/planet 2.mp4";
+import planet_3 from "../assests/planet 3.mp4";
+import planet_4 from "../assests/planet 4.mp4";
 import Intro from "../components/Intro";
 
 export default function Main() {
@@ -18,13 +18,18 @@ export default function Main() {
       <div className="intro">
         <section className="planets">
           {/* <img src={earth} alt="earth" /> */}
-          <video autoplay>
-              <source src="src/assests/planet 1.mp4" type="video/mp4" />
-              This browser does not display the video tag.
+          <video autoPlay loop muted>
+              <source src={planet_1} type="video/mp4"/>
           </video>
-          <img src={jupiter} alt="jupiter" />
-          <img src={neptune} alt="neptune" />
-          <img src={saturn} alt="saturn" />
+          <video autoPlay loop muted>
+              <source src={planet_2} type="video/mp4"/>
+          </video>
+          <video autoPlay loop muted>
+              <source src={planet_3} type="video/mp4"/>
+          </video>
+          <video autoPlay loop muted>
+              <source src={planet_4} type="video/mp4"/>
+          </video>
         </section>
         <section id="about_us"><div className="container"><Intro/></div></section>
         <section id="events"><div className="container"><Intro/></div></section>
