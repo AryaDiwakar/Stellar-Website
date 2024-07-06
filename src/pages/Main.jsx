@@ -17,15 +17,19 @@ export default function Main() {
       </div>
       <div className="intro">
         <section className="planets">
-          <img src={earth} alt="earth" />
+          {/* <img src={earth} alt="earth" /> */}
+          <video autoplay>
+              <source src="src/assests/planet 1.mp4" type="video/mp4" />
+              This browser does not display the video tag.
+          </video>
           <img src={jupiter} alt="jupiter" />
           <img src={neptune} alt="neptune" />
           <img src={saturn} alt="saturn" />
         </section>
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
+        <section id="about_us"><div className="container"><Intro/></div></section>
+        <section id="events"><div className="container"><Intro/></div></section>
+        <section id="newsletter"><div className="container"><Intro/></div></section>
+        <section id="gallery"><div className="container"><Intro/></div></section>
       </div>
     </div>
   );

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .mainPage{
     display: flex;
     height: 100vh;
@@ -33,4 +37,8 @@
 .planets img{
     width: 20%;
     height: 20%;
+}
+
+.container {
+    padding-top: 10vh;
 }

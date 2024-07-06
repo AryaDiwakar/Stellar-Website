@@ -13,11 +13,11 @@ export default function Navbar() {
             </div>
             <div className='navbar'>
                 <ul>
-                    <NavLink to='/home'>home</NavLink>
-                    <NavLink to='/about'>about us</NavLink>
-                    <NavLink to='/events'>events</NavLink>
-                    <NavLink to='/newsletter'>newsletter</NavLink>
-                    <NavLink to='/gallery'>gallery</NavLink>
+                    <a href='#'>home</a>
+                    <a href='#about_us'>about us</a>
+                    <a href='#events'>events</a>
+                    <a href='#newsletter'>newsletter</a>
+                    <a href='#gallery'>gallery</a>
                 </ul>
             </div>
         </header>
