@@ -4,8 +4,24 @@ import './Navbar.css';
 import logo from '../assests/logo.png';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
-export default function Navbar() {
-  return (
+export default function Navbar(props) {
+    var home, about_us, events, newsletter, gallery;
+    if (props.scroll >= 470 && props.scroll < 1250) {
+        about_us = "active";
+    }
+    else if (props.scroll >= 1250 && props.scroll < 2050) {
+        events = "active";
+    }
+    else if (props.scroll >= 2050 && props.scroll < 2840) {
+        newsletter = "active";
+    }
+    else if (props.scroll >= 2840) {
+        gallery = "active";
+    }
+    else {
+        home = "active";
+    }
+    return (
         <header>
             <div className='logo'>
                 <img src={logo} alt="Logo" />
@@ -13,15 +29,15 @@ export default function Navbar() {
             </div>
             <div className='navbar'>
                 <ul>
-                    <a href='#'>home</a>
-                    <a href='#about_us'>about us</a>
-                    <a href='#events'>events</a>
-                    <a href='#newsletter'>newsletter</a>
-                    <a href='#gallery'>gallery</a>
+                    <a href='#' className={home}>home</a>
+                    <a href='#about_us' className={about_us}>about us</a>
+                    <a href='#events' className={events}>events</a>
+                    <a href='#newsletter' className={newsletter}>newsletter</a>
+                    <a href='#gallery' className={gallery}>gallery</a>
                 </ul>
             </div>
         </header>
-  )
+    )
 };
 
 
