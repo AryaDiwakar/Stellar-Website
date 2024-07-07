@@ -31,7 +31,6 @@ export default function Main() {
       </div>
       <div className="intro">
         <section className="planets">
-          {/* <img src={earth} alt="earth" /> */}
           <video autoPlay loop muted>
               <source src={planet_1} type="video/mp4"/>
           </video>
@@ -43,12 +42,12 @@ export default function Main() {
           </video>
           <video autoPlay loop muted>
               <source src={planet_4} type="video/mp4"/>
-          </video>{scrollPosition}
+          </video>
         </section>
-        <section id="about_us"><div className="container"><Intro/>{scrollPosition}</div></section>
-        <section id="events"><div className="container"><Intro/>{scrollPosition}</div></section>
-        <section id="newsletter"><div className="container"><Intro/>{scrollPosition}</div></section>
-        <section id="gallery"><div className="container"><Intro/>{scrollPosition}</div></section>
+        <section id="about_us"><div className="container"><Intro/></div></section>
+        <section id="events"><div className="container"><Intro/></div></section>
+        <section id="newsletter"><div className="container"><Intro/></div></section>
+        <section id="gallery"><div className="container"><Intro/></div></section>
       </div>
     </div>
   );
