@@ -1,8 +1,10 @@
 import React from 'react';
 import './Intro.css';
-import astro from "../assets/Astro Symposium.jpg";
-import celestial from "../assets/Celestial Dive.jpg";
-import cosmic from "../assets/Cosmic Walk.jpg";
+import astro from "../assets/events/Astro Symposium.jpg";
+import celestial from "../assets/events/Celestial Dive.jpg";
+import cosmic from "../assets/events/Cosmic Walk.jpg";
+import skyforge from "../assets/events/SkyForge.jpg";
+import yantra from "../assets/events/Yantra Event on JWST.jpg";
 import { GiAstronautHelmet } from 'react-icons/gi';
 
 export default function Events() {
@@ -19,22 +21,31 @@ export default function Events() {
                 <div class="carousel-item active">
                     <img src={astro} class="d-block w-100" alt="Astro Symposium" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        {/* <p>Some representative placeholder content for the first slide.</p> */}
+                        <h5>Astro Symposium</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={celestial} class="d-block w-100" alt="Celestial Dive" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        {/* <p>Some representative placeholder content for the second slide.</p> */}
+                        <h5>Celestial Dive</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={cosmic} class="d-block w-100" alt="Cosmic Walk" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        {/* <p>Some representative placeholder content for the third slide.</p> */}
+                        <h5>Cosmic Walk</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src={skyforge} class="d-block w-100" alt="SkyForge" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SkyForge</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src={yantra} class="d-block w-100" alt="Yantra Event on JWST" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Yantra Event on JWST</h5>
                     </div>
                 </div>
             </div>
