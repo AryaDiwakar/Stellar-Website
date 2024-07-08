@@ -16,36 +16,38 @@ export default function Events() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src={astro} class="d-block w-100" alt="Astro Symposium" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Astro Symposium</h5>
+                        <h4>Astro Symposium</h4>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={celestial} class="d-block w-100" alt="Celestial Dive" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Celestial Dive</h5>
+                        <h4>Celestial Dive</h4>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={cosmic} class="d-block w-100" alt="Cosmic Walk" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Cosmic Walk</h5>
+                        <h4>Cosmic Walk</h4>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={skyforge} class="d-block w-100" alt="SkyForge" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>SkyForge</h5>
+                        <h4>SkyForge</h4>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={yantra} class="d-block w-100" alt="Yantra Event on JWST" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Yantra Event on JWST</h5>
+                        <h4>Yantra Event on JWST</h4>
                     </div>
                 </div>
             </div>
