@@ -1,6 +1,6 @@
 .introComp{
     background-color: black;
-    width: 100%;
+    width: 110%;
     margin: auto;
     margin-top: 5%;
     border: 4px solid #f8bc04;
@@ -19,4 +19,9 @@
 .introComp p{
     padding: 1%;
     font-size: large;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
 }
