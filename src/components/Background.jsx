@@ -1,11 +1,11 @@
-import React from 'react';
-import './Background.css';
+import React from "react";
+import "./Background.css";
 
 export default function Background() {
   return (
-        <div class="background-container">
-      <div class="stars"></div>
-      <div class="twinkling"></div>
+    <div className="background-container">
+      <div className="stars"></div>
+      <div className="twinkling"></div>
     </div>
-  )
-};
+  );
+}
