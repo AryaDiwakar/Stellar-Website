@@ -36,6 +36,13 @@ html {
   text-decoration: none;
 }
 
+.planet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .planets p {
   text-align: center;
   font-weight: bold;
@@ -51,6 +58,7 @@ html {
 .planets video {
   width: 100%;
   transition: all 100ms ease-in-out;
+  position: relative;
 }
 
 .planets video:hover {
