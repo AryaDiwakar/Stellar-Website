@@ -8,7 +8,7 @@ export default function Navbar(props) {
   const windowHeight = window.innerHeight;
   const [displayNav, setDisplayNav] = useState(false);
   window.addEventListener("scroll", () => {
-    if (props.scroll >= windowHeight * 0.6) {
+    if (props.scroll >= windowHeight * 0.4) {
       setDisplayNav(true);
     } else {
       setDisplayNav(false);
@@ -35,7 +35,7 @@ export default function Navbar(props) {
     <header>
       <div className="logo">
         <img src={logo} alt="Logo" />
-        <p>VIT - STELLAR</p>
+        <p className={displayNav ? "hidenav" : ""}>VIT - STELLAR</p>
       </div>
       <div className={displayNav ? "nvbar" : "nvbar hidenav"}>
         <ul>
@@ -66,7 +66,7 @@ export default function Navbar(props) {
 //           HomeAssist
 //         </div>
 //         <div className="hamenu">
-//           <a href="/">
+//           <a href="/home">
 //             <GiHamburgerMenu/>
 //           </a>
 //         </div>

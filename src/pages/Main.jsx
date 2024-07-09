@@ -34,19 +34,19 @@ export default function Main() {
       <div className="intro">
         <section className="planets">
           <NavLink to={"/about"}>
-            <video src={planet_1} autoPlay loop muted></video>
+            <video src={planet_1} autoPlay loop muted preload="auto"></video>
             <p>About Us</p>
           </NavLink>
           <NavLink to={"/events"}>
-            <video src={planet_2} autoPlay loop muted></video>
+            <video src={planet_2} autoPlay loop muted preload="auto"></video>
             <p>Events</p>
           </NavLink>
           <NavLink to={"/newsletter"}>
-            <video src={planet_3} autoPlay loop muted></video>
+            <video src={planet_3} autoPlay loop muted preload="auto"></video>
             <p>Newsletter</p>
           </NavLink>
           <NavLink to={"/gallery"}>
-            <video src={planet_4} autoPlay loop muted></video>
+            <video src={planet_4} autoPlay loop muted preload="auto"></video>
             <p>Gallery</p>
           </NavLink>
         </section>
