@@ -1,50 +1,64 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-.mainPage{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 1;
+.mainPage {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
 }
 
 .intro {
-    width: 50%;
-    position: absolute;
-    left: 25%;
-    z-index: 2;
-    display: grid;
-    grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  z-index: 2;
+  display: grid;
+  grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
 }
 
-/* .intro section, .intro .introComp{
-    margin: auto;
-} */
-
-.sun{
-    margin-left: -5%;
+.sun {
+  margin-left: -5%;
 }
 
-.planets{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 120%;
+.planets {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120%;
+}
+
+.planets a {
+  width: 20%;
+  text-decoration: none;
+}
+
+.planets p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.planets video:hover + p {
+  display: block;
+  width: 125%;
+  font-size: larger;
+  color: #f8bc04;
 }
 
 .planets video {
-    width: 20%;
-    transition: all 100ms ease-in-out;
+  width: 100%;
+  transition: all 100ms ease-in-out;
 }
 
 .planets video:hover {
-    width: 25%;
+  width: 125%;
+  transition: all 100ms ease-in;
 }
 
 .cont {
-    padding-top: 10vh;
-    margin-left: 5%;
+  padding-top: 10vh;
+  margin-left: 5%;
 }
