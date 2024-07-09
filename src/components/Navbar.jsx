@@ -35,7 +35,7 @@ export default function Navbar(props) {
     <header>
       <div className="logo">
         <img src={logo} alt="Logo" />
-        <p className={displayNav ? "hidenav" : ""}>VIT - STELLAR</p>
+        <p className={displayNav ? "nvbar_p" : "nvbar_p hidenav"}>VIT - STELLAR</p>
       </div>
       <div className={displayNav ? "nvbar" : "nvbar hidenav"}>
         <ul>

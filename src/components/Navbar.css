@@ -33,8 +33,16 @@
   font-size: 1.5rem;
   margin-top: 5%;
 }
+
+.nvbar_p, .nvbar {
+    transition: opacity 0.7s, transform 0.7s;
+    opacity: 1;
+}
+
 .hidenav {
-  display: none;
+  /* display: none; */
+  opacity: 0;
+  pointer-events: none;
 }
 
 header {
