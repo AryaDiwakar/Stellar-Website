@@ -8,6 +8,7 @@ import planet_4 from "../assets/planet 3.mp4";
 import planet_3 from "../assets/planet 4.mp4";
 import Intro from "../components/Intro";
 import Events from "../components/Events";
+import Newsletter from "../components/Newsletter";
 import { NavLink } from "react-router-dom";
 
 export default function Main() {
@@ -83,7 +84,7 @@ export default function Main() {
         </section>
         <section id="newsletter">
           <div className="cont">
-            <Intro />
+            <Newsletter />
           </div>
         </section>
         <section id="gallery">
