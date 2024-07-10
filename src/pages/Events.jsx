@@ -1,11 +1,11 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
+import React from "react";
+import HoriNav from "../components/HoriNav";
 
 export default function Events() {
   return (
     <div>
-      Events
-      <Navbar />
+      {/* Events */}
+      <HoriNav />
     </div>
-  )
+  );
 }

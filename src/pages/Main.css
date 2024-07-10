@@ -2,12 +2,17 @@ html {
   scroll-behavior: smooth;
 }
 .title {
-  z-index: 10;
-  position: absolute;
+  position: fixed;
   text-align: right;
   margin-top: 1.5%;
   width: 94%;
 }
+
+.hideTitle {
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
 .mainPage {
   display: flex;
   height: 100vh;

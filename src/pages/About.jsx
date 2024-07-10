@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import HoriNav from "../components/HoriNav";
 
 export default function About() {
   return (
     <div>
-      About Us
-      <Navbar />
+      {/* About Us */}
+      <HoriNav />
     </div>
   )
 }
