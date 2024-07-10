@@ -38,7 +38,7 @@ export default function Main() {
   return (
     <div>
       <div className={hideTitle ? "title hideTitle" : "title"}>
-        Astronomy Club VIT - Stellar
+        <p>Astronomy Club VIT - Stellar</p>
       </div>
       <div className="mainPage">
         <img src={sun} alt="Sun" className="sun" />
