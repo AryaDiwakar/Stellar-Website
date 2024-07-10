@@ -1,4 +1,6 @@
 .horinav {
+  z-index: 2;
+  background-color: black;
   position: fixed;
   top: 0;
   display: grid;
