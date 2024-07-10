@@ -77,3 +77,8 @@ html {
   padding-top: 10vh;
   margin-left: 5%;
 }
+
+.title p {
+    margin-right: 11vh;
+    margin-top: 4.5vh;
+}
