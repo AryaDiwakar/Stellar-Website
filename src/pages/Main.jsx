@@ -12,6 +12,16 @@ import { NavLink } from "react-router-dom";
 
 export default function Main() {
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [hideTitle, setHideTitle] = useState(false);
+
+  window.addEventListener("scroll", () => {
+    if (scrollPosition >= window.innerHeight * 0.2) {
+      setHideTitle(true);
+    } else {
+      setHideTitle(false);
+    }
+  });
+
   const handleScroll = () => {
     const position = window.scrollY;
     setScrollPosition(position);
@@ -27,8 +37,8 @@ export default function Main() {
 
   return (
     <div>
-      <div className="title">
-        <p>Astronomy Club VIT - Stellar</p>
+      <div className={hideTitle ? "title hideTitle" : "title"}>
+        Astronomy Club VIT - Stellar
       </div>
       <div className="mainPage">
         <img src={sun} alt="Sun" className="sun" />
@@ -78,7 +88,7 @@ export default function Main() {
         </section>
         <section id="gallery">
           <div className="cont">
-            <Intro />
+            <Events />
           </div>
         </section>
       </div>
