@@ -10,6 +10,7 @@ import Intro from "../components/Intro";
 import Events from "../components/Events";
 import Newsletter from "../components/Newsletter";
 import { NavLink } from "react-router-dom";
+import Gallery from "../components/Gallery";
 
 export default function Main() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -89,7 +90,7 @@ export default function Main() {
         </section>
         <section id="gallery">
           <div className="cont">
-            <Events />
+            <Gallery />
           </div>
         </section>
       </div>
