@@ -1,7 +1,13 @@
 html {
   scroll-behavior: smooth;
 }
-
+.title {
+  z-index: 10;
+  position: absolute;
+  text-align: right;
+  margin-top: 1.5%;
+  width: 94%;
+}
 .mainPage {
   display: flex;
   height: 100vh;
@@ -37,10 +43,11 @@ html {
 }
 
 .planet {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .planets p {

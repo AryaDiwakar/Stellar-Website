@@ -11,15 +11,15 @@
 
 .logo img {
   width: 3rem;
-  margin: 2%;
+  margin-top: 5%;
+  margin-right: 5%;
 }
 
-.logo {
+/* .logo {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: centre;
   align-items: center;
-}
+} */
 
 .nvbar ul {
   display: flex;
@@ -34,9 +34,10 @@
   margin-top: 5%;
 }
 
-.nvbar_p, .nvbar {
-    transition: opacity 0.7s, transform 0.7s;
-    opacity: 1;
+.nvbar_p,
+.nvbar {
+  transition: opacity 0.7s, transform 0.7s;
+  opacity: 1;
 }
 
 .hidenav {

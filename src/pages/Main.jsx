@@ -27,6 +27,9 @@ export default function Main() {
 
   return (
     <div>
+      <div className="title">
+        <p>Astronomy Club VIT - Stellar</p>
+      </div>
       <div className="mainPage">
         <img src={sun} alt="Sun" className="sun" />
         <Navbar scroll={scrollPosition} />
@@ -34,20 +37,28 @@ export default function Main() {
       <div className="intro">
         <section className="planets">
           <NavLink to={"/about"}>
-            <div className="planet"><video src={planet_1} autoPlay loop muted preload="auto"></video></div>
-            <p>About Us</p>
+            <div className="planet">
+              <video src={planet_1} autoPlay loop muted preload="auto"></video>
+              <p>About Us</p>
+            </div>
           </NavLink>
           <NavLink to={"/events"}>
-            <div className="planet"><video src={planet_2} autoPlay loop muted preload="auto"></video></div>
-            <p>Events</p>
+            <div className="planet">
+              <video src={planet_2} autoPlay loop muted preload="auto"></video>
+              <p>Events</p>
+            </div>
           </NavLink>
           <NavLink to={"/newsletter"}>
-            <div className="planet"><video src={planet_3} autoPlay loop muted preload="auto"></video></div>
-            <p>Newsletter</p>
+            <div className="planet">
+              <video src={planet_3} autoPlay loop muted preload="auto"></video>
+              <p>Newsletter</p>
+            </div>
           </NavLink>
           <NavLink to={"/gallery"}>
-            <div className="planet"><video src={planet_4} autoPlay loop muted preload="auto"></video></div>
-            <p>Gallery</p>
+            <div className="planet">
+              <video src={planet_4} autoPlay loop muted preload="auto"></video>
+              <p>Gallery</p>
+            </div>
           </NavLink>
         </section>
         <section id="about_us">
