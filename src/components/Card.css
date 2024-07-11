@@ -5,6 +5,7 @@
     box-shadow: 0 0 10px 5px #fbdc7f;
     border-radius: 12px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .board_card img {
@@ -15,5 +16,19 @@
 }
 
 .board_name {
+    height: 20%;
+    padding: 1%;
+}
+
+.board_post {
+    height: 20%;
+    padding: 1%;
+}
+
+.board_name p {
     color: #f8bc04;
+}
+
+.board_post p {
+    font-size: 1rem;
 }
