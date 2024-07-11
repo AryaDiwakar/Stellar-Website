@@ -79,12 +79,12 @@ html {
 }
 
 .cont {
-  padding-top: 10vh;
+  padding-top: 12vh;
   margin-left: 5%;
 }
 
 .title p {
-    margin-right: 10vh;
-    margin-top: 4.5vh;
-    font-size: 1.5rem;
+  margin-right: 10vh;
+  margin-top: 4.5vh;
+  font-size: 1.5rem;
 }
