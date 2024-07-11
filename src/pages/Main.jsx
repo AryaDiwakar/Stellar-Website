@@ -15,6 +15,7 @@ import Gallery from "../components/Gallery";
 export default function Main() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [hideTitle, setHideTitle] = useState(false);
+  // const [hideLogoTitle, setHideLogoTitle] = useState(0);
 
   window.addEventListener("scroll", () => {
     if (scrollPosition >= window.innerHeight * 0.2) {
@@ -22,6 +23,11 @@ export default function Main() {
     } else {
       setHideTitle(false);
     }
+    // if (scrollPosition >= window.innerHeight * 0.05) {
+    //   setHideLogoTitle(true);
+    // } else {
+    //   setHideLogoTitle(false);
+    // }
   });
 
   const handleScroll = () => {
