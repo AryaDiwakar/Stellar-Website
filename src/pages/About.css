@@ -7,3 +7,28 @@
     width: 100%;
   }
 
+  .group {
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .img {
+    width: 60%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .img img {
+    width: 100%;
+  }
+
+  .desc {
+    width: 40%;
+    float: right;
+    padding-right: 5%;
+  }
+
+  p {
+    font-size: large;
+  }
