@@ -1,0 +1,19 @@
+.board_card {
+    width: 16%;
+    height: 45vh;
+    border: 4px solid #f8bc04;
+    box-shadow: 0 0 10px 5px #fbdc7f;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.board_card img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 7%;
+}
+
+.board_name {
+    color: #f8bc04;
+}

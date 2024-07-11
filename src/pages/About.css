@@ -38,3 +38,12 @@
   p {
     font-size: large;
   }
+
+  .cards_cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    padding-bottom: 0;
+  }
