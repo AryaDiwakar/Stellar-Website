@@ -1,10 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import astro from "../assets/events/Astro Symposium.jpg";
-import celestial from "../assets/events/Celestial Dive.jpg";
-import cosmic from "../assets/events/Cosmic Walk.jpg";
-import skyforge from "../assets/events/SkyForge.jpg";
-import yantra from "../assets/events/Yantra Event on JWST.jpg";
+
 
 export default function Gallery() {
   return (
