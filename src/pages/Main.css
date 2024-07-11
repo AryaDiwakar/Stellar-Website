@@ -84,6 +84,7 @@ html {
 }
 
 .title p {
-    margin-right: 11vh;
+    margin-right: 10vh;
     margin-top: 4.5vh;
+    font-size: 1.5rem;
 }
