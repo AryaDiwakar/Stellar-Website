@@ -1,11 +1,14 @@
 .board_card {
-    width: 16%;
-    height: 45vh;
+    /* width: 100%;
+    height: 250vh; */
+    width: 18%;
+    /* height: 10%; */
     border: 4px solid #f8bc04;
     box-shadow: 0 0 10px 5px #fbdc7f;
     border-radius: 12px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 5vh;
 }
 
 .board_card img {
@@ -36,3 +39,15 @@
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .board_card {
+      width: 45%;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .board_card {
+      width: 100%;
+    }
+  }

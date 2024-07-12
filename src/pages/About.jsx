@@ -37,8 +37,6 @@ export default function About() {
           <Card img = {devangi} name = {"Devangi Arora"} post = {"Vice Chairperson"}/>
           <Card img = {aayush} name = {"Aayush Nagpal"} post = {"Co-Secretary"}/>
           <Card img = {muskaan} name = {"Muskaan Patni"} post = {"Technical Head"}/>
-        </div>
-        <div className='cards_cont'>
           <Card img = {shreejata} name = {"Shreejata Gupta"} post = {"Events Head"}/>
           <Card img = {sanchita} name = {"Sanchita Jindal"} post = {"Management Head"}/>
           <Card img = {swayam} name = {"Swayam Galgalikar"} post = {"Finance Head"}/>
@@ -46,7 +44,7 @@ export default function About() {
           <Card img = {avanish} name = {"⁠Avanish Gharat"} post = {"Editorial Head"}/>
         </div>
         <h2>Our Faculty Coordinator</h2>
-        <div className='img coord'>
+        <div className='coord'>
           <div className='coord_pic'>
             <img src={coordinator} />
             <p>Mrs. Selva Rani B</p>
