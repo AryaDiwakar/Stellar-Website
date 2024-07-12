@@ -106,7 +106,7 @@ html {
     z-index: 4;
     background-color: rgba(0, 0, 0, 0.9);
   }
-  .hideTitle{
+  .hideTitle {
     opacity: 1;
     transition: none;
   }
@@ -118,7 +118,7 @@ html {
     width: 100%;
     top: 5rem;
     left: 0;
-    grid-template-rows: 100vh 80vh 80vh 80vh 80vh;
+    grid-template-rows: 150vh 80vh 80vh 80vh 80vh;
   }
   .intro section,
   .intro .introComp {
@@ -129,5 +129,8 @@ html {
     padding: 0;
     width: 94%;
     margin-inline: 3%;
+  }
+  .planets a {
+    width: 40%;
   }
 }
