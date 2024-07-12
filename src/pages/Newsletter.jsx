@@ -1,6 +1,12 @@
 import React from "react";
 import HoriNav from "../components/HoriNav";
 import "./Newsletter.css";
+import page1 from '../assets/newsletter/juneNewsLetter (1)_page-0001.jpg';
+import page2 from '../assets/newsletter/juneNewsLetter (1)_page-0002.jpg';
+import page3 from '../assets/newsletter/juneNewsLetter (1)_page-0003.jpg';
+import page4 from '../assets/newsletter/juneNewsLetter (1)_page-0004.jpg';
+import page5 from '../assets/newsletter/juneNewsLetter (1)_page-0005.jpg';
+import page6 from '../assets/newsletter/juneNewsLetter (1)_page-0006.jpg';
 
 export default function Newsletter() {
   return (
@@ -8,7 +14,13 @@ export default function Newsletter() {
       <HoriNav />
       <div className="newspdf">
         <h1>Newsletter</h1>
-        <iframe src="https://drive.google.com/file/d/1Jl8LFXeMdn2myAvvAAmzgBiurdeBHIfi/preview"></iframe>
+        {/* <iframe src="https://drive.google.com/file/d/1Jl8LFXeMdn2myAvvAAmzgBiurdeBHIfi/preview"></iframe> */}
+        <img src={page1} />
+        <img src={page2} />
+        <img src={page3} />
+        <img src={page4} />
+        <img src={page5} />
+        <img src={page6} />
       </div>
     </div>
   );
