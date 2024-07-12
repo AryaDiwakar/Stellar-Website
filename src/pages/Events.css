@@ -1,0 +1,14 @@
+.eventspage{
+    position: relative;
+    top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.eventCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+}
