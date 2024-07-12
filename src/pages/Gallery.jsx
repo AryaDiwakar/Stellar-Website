@@ -29,22 +29,6 @@ export default function Gallery() {
           <div className="galleryImg">
             <img src={five} alt="five" />
           </div>
-          {/*  */}
-          <div className="galleryImg">
-            <img src={one} alt="one" />
-          </div>
-          <div className="galleryImg">
-            <img src={two} alt="two" />
-          </div>
-          <div className="galleryImg">
-            <img src={three} alt="three" />
-          </div>
-          <div className="galleryImg">
-            <img src={four} alt="four" />
-          </div>
-          <div className="galleryImg">
-            <img src={five} alt="five" />
-          </div>
         </div>
       </div>
     </div>
