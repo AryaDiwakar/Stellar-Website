@@ -90,14 +90,44 @@ html {
 }
 
 @media screen and (max-width: 576px) {
-  .mainPage, .title{
+  .mainPage {
     display: none;
   }
-  .planets{
-    flex-direction: column;
+
+  .title p {
+    margin: 0;
+    font-size: larger;
   }
-  .intro{
+  .title {
+    text-align: center;
+    margin: 0;
+    padding-block: 1rem 1rem;
     width: 100%;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .hideTitle{
+    opacity: 1;
+    transition: none;
+  }
+  .planets {
+    flex-direction: column;
+    width: 100%;
+  }
+  .intro {
+    width: 100%;
+    top: 5rem;
     left: 0;
+    grid-template-rows: 100vh 80vh 80vh 80vh 80vh;
+  }
+  .intro section,
+  .intro .introComp {
+    width: 100%;
+  }
+  .cont {
+    margin-left: 0;
+    padding: 0;
+    width: 94%;
+    margin-inline: 3%;
   }
 }
