@@ -1,6 +1,5 @@
 import React from "react";
 import HoriNav from "../components/HoriNav";
-// import { positionGeometry } from "three/examples/jsm/nodes/Nodes.js";
 
 export default function Whoops404() {
   const myStyle = {

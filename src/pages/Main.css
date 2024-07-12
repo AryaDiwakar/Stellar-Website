@@ -88,3 +88,16 @@ html {
   margin-top: 4.5vh;
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 576px) {
+  .mainPage, .title{
+    display: none;
+  }
+  .planets{
+    flex-direction: column;
+  }
+  .intro{
+    width: 100%;
+    left: 0;
+  }
+}
