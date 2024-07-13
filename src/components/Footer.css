@@ -1,0 +1,21 @@
+footer {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#footlogo {
+  width: 20%;
+  font-weight: 400;
+}
+
+footer a{
+    font-weight: 400;
+}
+
+.connectUs{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}

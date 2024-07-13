@@ -7,6 +7,7 @@ import page3 from '../assets/newsletter/juneNewsLetter (1)_page-0003.jpg';
 import page4 from '../assets/newsletter/juneNewsLetter (1)_page-0004.jpg';
 import page5 from '../assets/newsletter/juneNewsLetter (1)_page-0005.jpg';
 import page6 from '../assets/newsletter/juneNewsLetter (1)_page-0006.jpg';
+import Footer from "../components/Footer";
 
 export default function Newsletter() {
   return (
@@ -21,7 +22,11 @@ export default function Newsletter() {
         <img src={page4} />
         <img src={page5} />
         <img src={page6} />
+        <div className="foot">
+          <Footer />
+        </div>
       </div>
+      
     </div>
   );
 }

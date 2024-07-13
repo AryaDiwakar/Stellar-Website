@@ -6,6 +6,7 @@ import two from "../assets/gallery/two.jpg";
 import three from "../assets/gallery/three.jpg";
 import four from "../assets/gallery/four.jpg";
 import five from "../assets/gallery/five.jpg";
+import Footer from "../components/Footer";
 
 export default function Gallery() {
   return (
@@ -29,6 +30,9 @@ export default function Gallery() {
           <div className="galleryImg">
             <img src={five} alt="five" />
           </div>
+        </div>
+        <div className="foot">
+          <Footer />
         </div>
       </div>
     </div>

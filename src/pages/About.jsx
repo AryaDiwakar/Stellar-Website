@@ -14,6 +14,7 @@ import vishwajith from '../assets/about us/Vishwajith prabhakar secretary.jpg';
 import board from '../assets/about us/Board grp picture.jpg';
 import Card from '../components/Card';
 import coordinator from '../assets/about us/Coordinator.png';
+import Footer from '../components/Footer';
 
 export default function About() {
   return (
@@ -52,6 +53,9 @@ export default function About() {
           <div className='coord_desc'>
             <p>Astronomy Club - VIT Stellar, where passion meets the cosmos! Founded by astronomy enthusiasts at Vellore Institute of Technology, our club is dedicated to exploring the wonders of the universe and fostering a community of stargazers, scientists, and dreamers. Our motive is to ignite curiosity and inspire exploration of the cosmos. Through engaging workshops, star parties, and informative sessions, we aim to make astronomy accessible and enjoyable for everyone, from beginners to seasoned astronomers.</p>
           </div>
+        </div>
+        <div className="foot">
+          <Footer />
         </div>
       </div>
     </div>

@@ -8,6 +8,7 @@ import event4 from "../assets/events/SkyForge.jpg";
 import event5 from "../assets/events/WORKSHOP ON CELESTIA .jpg";
 import event6 from "../assets/events/Yantra Event on JWST.jpg";
 import Card from "../components/EventCard";
+import Footer from "../components/Footer";
 
 export default function Events() {
   return (
@@ -22,6 +23,9 @@ export default function Events() {
           <Card img={event4} name={"SkyForge"} />
           <Card img={event5} name={"WORKSHOP ON CELESTIA"} />
           <Card img={event6} name={"Yantra Event on JWST"} />
+        </div>
+        <div className="foot">
+          <Footer />
         </div>
       </div>
     </div>
