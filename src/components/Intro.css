@@ -58,3 +58,15 @@ h4 {
 .nl {
     height: 60vh;
 }
+
+@media screen and (max-width: 576px){
+    #pic2,#pic3{
+        display: none;
+    }
+    #pic1{
+        top: 6vh;
+    }
+    .introComp p{
+        font-size:larger; 
+    }
+}

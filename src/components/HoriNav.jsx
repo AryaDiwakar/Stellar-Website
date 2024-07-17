@@ -3,18 +3,9 @@ import "./HoriNav.css";
 import logo from "../assets/logo.png";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Dropdown from 'react-bootstrap/Dropdown';
 
 export default function HoriNav() {
-  // var home, about_us, events, newsletter, gallery;
-  // const windowHeight = window.innerHeight;
-  // const [displayNav, setDisplayNav] = useState(false);
-  // window.addEventListener("scroll", () => {
-  //   if (props.scroll >= windowHeight * 0.2) {
-  //     setDisplayNav(true);
-  //   } else {
-  //     setDisplayNav(false);
-  //   }
-  // });
   return (
     <div className="horinav">
       <ul>
@@ -28,24 +19,21 @@ export default function HoriNav() {
         <p>VIT - Stellar</p>
         <img src={logo} alt="Logo" />
       </div>
+      <div className="hamenu">
+        <Dropdown>
+          <Dropdown.Toggle variant="" id="dropdown">
+          <GiHamburgerMenu/>
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item href="/home">Home</Dropdown.Item>
+            <Dropdown.Item href="/about">About Us</Dropdown.Item>
+            <Dropdown.Item href="/events">Events</Dropdown.Item>
+            <Dropdown.Item href="/newsletter">Newsletter</Dropdown.Item>
+            <Dropdown.Item href="/gallery">Gallery</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </div>
     </div>
   );
 }
-
-//     <header>
-//       <nav>
-//         <div className="hatitle">
-//           HomeAssist
-//         </div>
-//         <div className="hamenu">
-//           <a href="/home">
-//             <GiHamburgerMenu/>
-//           </a>
-//         </div>
-//       </nav>
-//       <div className="logo">
-//         <NavLink to="/"><img src={logo} alt="logo" /></NavLink>
-//       </div>
-//     </header>
-//   );
-// };

@@ -37,3 +37,29 @@
   height: 100%;
   align-items: center;
 }
+
+.hamenu{
+  display: none;
+}
+
+@media screen and (max-width: 576px){
+  .horinav ul{
+    display: none;
+  }
+  .horilogo{
+    flex-direction: row-reverse;
+    justify-content: start;
+  }
+  .hamenu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 15%;
+  }
+  .hamenu div{
+    background-color: black;
+  }
+  .hamenu a{
+    color: white;
+  }
+}
