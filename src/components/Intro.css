@@ -13,13 +13,15 @@
     text-decoration: underline;
     text-transform: uppercase;
     padding: 2%;
-    font-family: 'Audiowide', sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 .introComp p{
     padding: 1%;
     font-size: large;
-}
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: x-large;
+    }
 
 .carousel-item img {
     height: 400px;
