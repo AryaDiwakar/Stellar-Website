@@ -16,12 +16,12 @@ export default function Newsletter() {
       <div className="newspdf">
         <h1>Newsletter</h1>
         {/* <iframe src="https://drive.google.com/file/d/1Jl8LFXeMdn2myAvvAAmzgBiurdeBHIfi/preview"></iframe> */}
-        <img src={page1} />
-        <img src={page2} />
-        <img src={page3} />
-        <img src={page4} />
-        <img src={page5} />
-        <img src={page6} />
+        <img src={page1} alt="page 1"/>
+        <img src={page2} alt="page 2"/>
+        <img src={page3} alt="page 3"/>
+        <img src={page4} alt="page 4"/>
+        <img src={page5} alt="page 5"/>
+        <img src={page6} alt="page 6"/>
         <div className="foot">
           <Footer />
         </div>

@@ -1,13 +1,24 @@
-footer {
+#first {
   min-height: 100px;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 12px 12px 0 0;
+}
+
+.footerRow {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 #footlogo {
-  width: 20%;
-  font-weight: 400;
+  width: 30%;
+  font-weight: 1000;
+  font-size: 1.2rem;
 }
 
 footer a{
@@ -18,4 +29,16 @@ footer a{
     display: flex;
     justify-content: space-around;
     width: 10%;
+}
+
+.links {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 6%;
+}
+
+.using {
+  width: 30%;
 }

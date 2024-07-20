@@ -24,7 +24,7 @@ export default function About() {
         <h1>About Us</h1>
         <div className='group'>
           <div className='img'>
-            <img src={board} alt='board group picture' />
+            <img src={board} alt='board_group_picture' />
           </div>
           <div className='desc'>
             <p>Astronomy Club - VIT Stellar, where passion meets the cosmos! Founded by astronomy enthusiasts at Vellore Institute of Technology, our club is dedicated to exploring the wonders of the universe and fostering a community of stargazers, scientists, and dreamers. 
@@ -33,16 +33,16 @@ export default function About() {
         </div>
         <h2>Our Board</h2>
         <div className='cards_cont'>
-          <Card img = {aniket} name = {"Aniket Rai"} post = {"Chairperson"}/>
-          <Card img = {vishwajith} name = {"Vishwajith Prabhakar"} post = {"Secretary"}/>
-          <Card img = {devangi} name = {"Devangi Arora"} post = {"Vice Chairperson"}/>
-          <Card img = {aayush} name = {"Aayush Nagpal"} post = {"Co-Secretary"}/>
-          <Card img = {muskaan} name = {"Muskaan Patni"} post = {"Technical Head"}/>
-          <Card img = {shreejata} name = {"Shreejata Gupta"} post = {"Events Head"}/>
-          <Card img = {sanchita} name = {"Sanchita Jindal"} post = {"Management Head"}/>
-          <Card img = {swayam} name = {"Swayam Galgalikar"} post = {"Finance Head"}/>
-          <Card img = {supransha} name = {"⁠Supransha Thapa"} post = {"Design Head"}/>
-          <Card img = {avanish} name = {"⁠Avanish Gharat"} post = {"Editorial Head"}/>
+          <Card img = {aniket} name = {"Aniket Rai"} post = {"Chairperson"} alt = "board_member"/>
+          <Card img = {vishwajith} name = {"Vishwajith Prabhakar"} post = {"Secretary"} alt = "board_member"/>
+          <Card img = {devangi} name = {"Devangi Arora"} post = {"Vice Chairperson"} alt = "board_member"/>
+          <Card img = {aayush} name = {"Aayush Nagpal"} post = {"Co-Secretary"} alt = "board_member"/>
+          <Card img = {muskaan} name = {"Muskaan Patni"} post = {"Technical Head"} alt = "board_member"/>
+          <Card img = {shreejata} name = {"Shreejata Gupta"} post = {"Events Head"} alt = "board_member"/>
+          <Card img = {sanchita} name = {"Sanchita Jindal"} post = {"Management Head"} alt = "board_member"/>
+          <Card img = {swayam} name = {"Swayam Galgalikar"} post = {"Finance Head"} alt = "board_member"/>
+          <Card img = {supransha} name = {"⁠Supransha Thapa"} post = {"Design Head"} alt = "board_member"/>
+          <Card img = {avanish} name = {"⁠Avanish Gharat"} post = {"Editorial Head"} alt = "board_member"/>
         </div>
         <h2>Our Faculty Coordinator</h2>
         <div className='coord'>
