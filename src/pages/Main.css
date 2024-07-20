@@ -89,6 +89,12 @@ html {
   font-size: 1.5rem;
 }
 
+.footer {
+  width: 100%;
+  position: absolute;
+  top: 490vh;
+}
+
 @media screen and (max-width: 576px) {
   .mainPage {
     display: none;

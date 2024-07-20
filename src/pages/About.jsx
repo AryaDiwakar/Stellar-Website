@@ -47,7 +47,7 @@ export default function About() {
         <h2>Our Faculty Coordinator</h2>
         <div className='coord'>
           <div className='coord_pic'>
-            <img src={coordinator} />
+            <img src={coordinator} alt='Mrs. Selva Rani B'/>
             <p>Mrs. Selva Rani B</p>
           </div>
           <div className='coord_desc'>

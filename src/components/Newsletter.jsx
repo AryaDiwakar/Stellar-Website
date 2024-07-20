@@ -8,9 +8,9 @@ export default function Newsletter() {
   return (
     <div className='introComp nl'>
         <h1>Newsletter</h1>
-        <img id='pic2' src={pic2} />
-        <img id='pic1' src={pic1} />
-        <img id='pic3' src={pic3} />
+        <img id='pic2' src={pic2} alt = "newsletter1"/>
+        <img id='pic1' src={pic1} alt = "newsletter2"/>
+        <img id='pic3' src={pic3} alt = "newsletter3"/>
     </div>
   )
 }

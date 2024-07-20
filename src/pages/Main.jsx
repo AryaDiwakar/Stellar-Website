@@ -126,10 +126,10 @@ export default function Main() {
             </div>
           </section>
         </div>
+        <div className="footer">
+          <Footer />
+        </div>
       </div>
-      {/* <div className="footer">
-        <Footer />
-      </div> */}
     </>
   );
 }
