@@ -93,6 +93,7 @@ html {
   width: 100%;
   position: absolute;
   top: 490vh;
+  z-index: 3;
 }
 
 @media screen and (max-width: 576px) {
