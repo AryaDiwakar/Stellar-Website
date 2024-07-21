@@ -46,3 +46,24 @@ footer div p {
   font-weight: bold;
   margin-top: 7%;
 }
+.stellarCon{
+  color: wheat;
+  margin-block: 0 5%;
+}
+@media screen and (max-width: 576px){
+  footer{
+    flex-direction: column;
+    border-radius: 20px 20px 0 0;
+  }
+  .footerRow{
+    width: 100%;
+  }
+  .connectUs{
+    margin-bottom: 10%;
+  }
+  #footlogo{
+    width: 80%;
+    text-align: center;
+    margin-top: 2%;
+  }
+}
