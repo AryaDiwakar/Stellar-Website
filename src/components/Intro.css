@@ -36,22 +36,28 @@ h4 {
     2px -2px 0 #000;
 }
 
-.nl img {
+.nl div {
     width: 25vh;
     position: relative;
 }
 
+.nl img {
+    width: 100%;
+}
+
 #pic1 {
-    top: 10vh;
+    bottom: 37vh;
+    left: 34.5vh;
 }
 
 #pic2 {
-    right: 3vh;
+    left: 3vh;
     filter: brightness(30%);
 }
 
 #pic3 {
-    left: 3vh;
+    bottom: 84.9vh;
+    left: 66.5vh;
     filter: brightness(30%);
 }
 

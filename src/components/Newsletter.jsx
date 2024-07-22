@@ -8,9 +8,18 @@ export default function Newsletter() {
   return (
     <div className='introComp nl'>
         <h1>Newsletter</h1>
-        <img id='pic2' src={pic2} alt = "newsletter1"/>
-        <img id='pic1' src={pic1} alt = "newsletter2"/>
-        <img id='pic3' src={pic3} alt = "newsletter3"/>
+        <div id='pic2'>
+          <img src={pic2} alt = "newsletter1"/>
+          <p>May '24</p>
+        </div>
+        <div id='pic1'>
+          <img src={pic1} alt = "newsletter2"/>
+          <p>June '24</p>
+        </div>
+        <div id='pic3'>
+          <img src={pic3} alt = "newsletter3"/>
+          <p>July '24</p>
+        </div>
     </div>
   )
 }
