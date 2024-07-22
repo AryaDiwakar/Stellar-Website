@@ -48,10 +48,10 @@ export default function About() {
         <div className='coord'>
           <div className='coord_pic'>
             <img src={coordinator} alt='Mrs. Selva Rani B'/>
-            <p>Mrs. Selva Rani B</p>
+            <p>Dr. Selva Rani Ma'am</p>
           </div>
           <div className='coord_desc'>
-            <p>Astronomy Club - VIT Stellar, where passion meets the cosmos! Founded by astronomy enthusiasts at Vellore Institute of Technology, our club is dedicated to exploring the wonders of the universe and fostering a community of stargazers, scientists, and dreamers. Our motive is to ignite curiosity and inspire exploration of the cosmos. Through engaging workshops, star parties, and informative sessions, we aim to make astronomy accessible and enjoyable for everyone, from beginners to seasoned astronomers.</p>
+            <p>Dr.Selva Rani Ma'am, the driving force behind VIT-STELLAR. With a profound passion for astronomy and a dedication to nurturing young minds, she is committed to making the wonders of the universe accessible to all. Under her guidance, VIT-STELLAR has become a hub for astronomy enthusiasts, offering a platform to explore, learn, and share the magic of the cosmos.</p>
           </div>
         </div>
         <div className="foot">

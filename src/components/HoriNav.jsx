@@ -12,7 +12,7 @@ export default function HoriNav() {
         <NavLink to={"/home"}>Home</NavLink>
         <NavLink to={"/about"}>About Us</NavLink>
         <NavLink to={"/events"}>Events</NavLink>
-        <NavLink to={"/newsletter"}>Newsletter</NavLink>
+        <NavLink to={"/newsletter"}>Newsletters</NavLink>
         <NavLink to={"/gallery"}>Gallery</NavLink>
       </ul>
       <div className="horilogo">
@@ -29,7 +29,7 @@ export default function HoriNav() {
             <Dropdown.Item href="/home">Home</Dropdown.Item>
             <Dropdown.Item href="/about">About Us</Dropdown.Item>
             <Dropdown.Item href="/events">Events</Dropdown.Item>
-            <Dropdown.Item href="/newsletter">Newsletter</Dropdown.Item>
+            <Dropdown.Item href="/newsletter">Newsletters</Dropdown.Item>
             <Dropdown.Item href="/gallery">Gallery</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
