@@ -1,11 +1,10 @@
 import React from "react";
 import "./Intro.css";
-import astro from "../assets/events/Astro Symposium.jpg";
-import celestial from "../assets/events/Celestial Dive.jpg";
-import cosmic from "../assets/events/Cosmic Walk.jpg";
-import skyforge from "../assets/events/SkyForge.jpg";
-import yantra from "../assets/events/Yantra Event on JWST.jpg";
-import { GiAstronautHelmet } from "react-icons/gi";
+import astro from "../assets/events/one.jpg";
+import celestial from "../assets/events/two.jpg";
+import cosmic from "../assets/events/three.jpg";
+import skyforge from "../assets/events/four.jpg";
+import yantra from "../assets/events/five.jpg";
 
 export default function Events() {
   return (

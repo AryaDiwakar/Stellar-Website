@@ -7,7 +7,7 @@ import planet_2 from "../assets/planet 2.mp4";
 import planet_4 from "../assets/planet 3.mp4";
 import planet_3 from "../assets/planet 4.mp4";
 import Intro from "../components/Intro";
-import Events from "../components/Events";
+import Events from "../components/Events.jsx";
 import Newsletter from "../components/Newsletter";
 import { NavLink } from "react-router-dom";
 import Gallery from "../components/Gallery";
@@ -24,11 +24,6 @@ export default function Main() {
     } else {
       setHideTitle(false);
     }
-    // if (scrollPosition >= window.innerHeight * 0.05) {
-    //   setHideLogoTitle(true);
-    // } else {
-    //   setHideLogoTitle(false);
-    // }
   });
 
   const handleScroll = () => {
