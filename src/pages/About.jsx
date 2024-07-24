@@ -13,7 +13,7 @@ import swayam from '../assets/about us/Swayam Galgalikar Finance  Head.jpg';
 import vishwajith from '../assets/about us/Vishwajith prabhakar secretary.jpg';
 import board from '../assets/about us/Board grp picture.jpg';
 import Card from '../components/Card';
-import coordinator from '../assets/about us/Coordinator.png';
+import coordinator from '../assets/about us/coordinator.jpg';
 import Footer from '../components/Footer';
 
 export default function About() {

@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <p className="stellarCon" style={{  }}>Follow VIT - Stellar on:</p>
+        <p className="stellarCon" style={{  }}>Follow us on:</p>
         <div className="connectUs">
           <a
             href="https://www.instagram.com/vit_stellar?igsh=MXdiNGI3cDg5YzYxMA=="
