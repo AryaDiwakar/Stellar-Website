@@ -84,7 +84,7 @@ export default function Main() {
                   muted
                   preload="auto"
                 ></video>
-                <p>Newsletter</p>
+                <p>Newsletters</p>
               </div>
             </NavLink>
             <NavLink to={"/gallery"}>
