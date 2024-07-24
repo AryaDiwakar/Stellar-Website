@@ -1,6 +1,7 @@
 .introComp{
     background-color: rgba(0, 0, 0, 0.5);
     width: 110%;
+    height: 62vh;
     margin: auto;
     margin-top: 5%;
     border: 4px solid #f8bc04;
@@ -14,13 +15,15 @@
     text-transform: uppercase;
     padding: 2%;
     font-family: 'Audiowide', sans-serif;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .introComp p{
     padding: 1%;
     font-size: large;
     font-family: "IBM Plex Sans", sans-serif;
-font-size: x-large;
+    font-size: x-large;
 }
 
 .carousel-item img {
@@ -63,6 +66,36 @@ h4 {
 
 .nl {
     height: 60vh;
+}
+
+.hide {
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.show {
+    opacity: 100;
+    transition: all 1s ease;
+}
+
+.us {
+    position: relative;
+    top: 0vh;
+}
+
+.vit {
+    position: relative;
+    bottom: 49vh;
+}
+
+.notClicked {
+    font-size: 1.5rem;
+    transition: all 1s ease;
+}
+
+.clicked {
+    font-size: 34px;
+    transition: all 1s ease;
 }
 
 @media screen and (max-width: 576px){
