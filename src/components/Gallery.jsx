@@ -10,7 +10,7 @@ export default function Gallery() {
   return (
     <div className="introComp">
       <h1>Gallery</h1>
-      <div id="carouselExampleIndicators" class="carousel slide mx-2 mb-2" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide mx-3 mb-4 border" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
             type="button"
