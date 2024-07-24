@@ -59,10 +59,15 @@ footer div p {
   footer{
     flex-direction: column;
     border-radius: 20px 20px 0 0;
+    background: none;
   }
   .footerRow{
-    width: 100%;
+    grid-template-columns: 1fr;
+    margin-block: 3%;
   }
+  /* .dev{
+    flex-direction: column;
+  } */
   .connectUs{
     margin-bottom: 10%;
   }
