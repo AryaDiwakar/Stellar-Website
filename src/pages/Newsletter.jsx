@@ -14,7 +14,7 @@ export default function Newsletter() {
     <div>
       <HoriNav />
       <div className="newspdf">
-        <h1>Newsletter</h1>
+        <h1>Newsletters</h1>
         {/* <iframe src="https://drive.google.com/file/d/1Jl8LFXeMdn2myAvvAAmzgBiurdeBHIfi/preview"></iframe> */}
         <img src={page1} alt="page 1"/>
         <img src={page2} alt="page 2"/>

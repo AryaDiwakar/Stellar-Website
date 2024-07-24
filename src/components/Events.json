@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Astro Symposium - Gravitas Sep '23",
+        "desc": "Astro Symposium is a cosmic journey featuring renowned ISRO scientists and TEDx speakers, offering workshops, conferences, and interactive experiences to ignite young minds with the wonders of the universe.",
+        "image": "one"
+    },
+    {
+        "id":3,
+        "name": "Celestial Dive - Gravitas Sep '23",
+        "desc":"Celestial Dive offers an immersive astronomical experience. Participants delve into celestial wonders through informative workshops and hands-on stargazing sessions equipped with state-of-the-art telescopes.",
+        "image": "two"
+    },
+    {
+        "id": 3,
+        "name": "Cosmic Walk 2.0 - Apr '24",
+        "desc":"Cosmic Walk, an evening under the stars, igniting passion for astronomy. Participants embarked on a journey through constellations, capturing the cosmos through astrophotography.",
+        "image": "three"
+    },
+    {
+        "id": 4,
+        "name": "Sky Forge - Gravitas Sep '23",
+        "desc": "The workshop empowered participants to design their own rockets using Open Rocket software and provided a platform for aspiring engineers to explore the intricacies of rocket science.",
+        "image": "four"
+    },
+    {
+        "id": 5,
+        "name": "Workshop On Celestia - Apr '24",
+        "desc": "A full-day workshop on Celestia, a powerful open source astronomy simulation software. Attendees designed their own cosmic scenarios, delved into data analysis and learnt about customizing Celestia and made connections with the online astronomy community.",
+        "image": "five"
+    },
+    {
+        "id": 6,
+        "name": "Cosmic Time Machine - Yantra Mar '24",
+        "desc": "The workshop gave an insight on the exploration of the universe using the James Webb Space Telescope including its remarkable 'aerospace origami' design and it acting as a Cosmic time machine!",
+        "image": "six"
+    }
+] 
