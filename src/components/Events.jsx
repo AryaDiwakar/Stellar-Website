@@ -12,7 +12,7 @@ export default function Events() {
       <h1>Events</h1>
       <div
         id="carouselExampleCaptions"
-        className="carousel slide"
+        className="carousel slide mx-2 mb-2"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators">

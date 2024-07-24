@@ -1,7 +1,7 @@
 footer {
   height: 100px;
   border-radius: 100px 100px 0 0;
-  border-top: 2px solid yellow;
+  border-top: 2px solid orange;
   background-color: black;
   display: flex;
   align-items: center;
