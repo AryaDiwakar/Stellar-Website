@@ -13,7 +13,8 @@ export default function Footer() {
       <div id="footlogo">VIT - Stellar</div>
       {/* <div>Developers Contact</div> */}
       <div className="footerRow">
-        <div className="footerRow">
+        <div className="dev">Designed & Developed by:</div>
+        <div className="dev">
           <p>Prathmesh Gahukar</p>
           <div className="links">
             <a
@@ -27,7 +28,21 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="footerRow">
+        <div className="dev">
+          <p>Muskaan Patni</p>
+          <div className="links">
+            <a
+              href="https://www.linkedin.com/in/muskaan-patni-08483820a/"
+              target="_blank"
+            >
+              <FaLinkedinIn />
+            </a>
+            <a href="https://github.com/muskaanpatni" target="_blank">
+              <FaGithub />
+            </a>
+          </div>
+        </div>
+        <div className="dev">
           <p>Pradyun Mondal</p>
           <div className="links">
             <a
@@ -43,7 +58,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <p className="stellarCon" style={{  }}>Follow us on:</p>
+        <p className="stellarCon">Follow us on:</p>
         <div className="connectUs">
           <a
             href="https://www.instagram.com/vit_stellar?igsh=MXdiNGI3cDg5YzYxMA=="

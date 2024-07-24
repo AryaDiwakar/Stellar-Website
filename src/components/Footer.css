@@ -5,22 +5,28 @@ footer {
   background-color: black;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .footerRow {
-  width: 40%;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* align-items: center;
+  justify-content: space-around; */
+  font-size: small;
+}
+#footlogo {
+  width: 10%;
+  font-weight: 1000;
+  font-size: 1.2rem;
+}
+.dev{
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: small;
 }
-#footlogo {
-  width: 20%;
-  font-weight: 1000;
-  font-size: 1.2rem;
-}
-
 footer a {
   font-weight: 400;
 }
