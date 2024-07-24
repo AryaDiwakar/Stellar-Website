@@ -54,7 +54,7 @@ export default function Main() {
             <NavLink to={"/about"}>
               <div className="planet">
                 <video
-                  src={planet_2}
+                  src={planet_1}
                   autoPlay
                   loop
                   muted
@@ -66,7 +66,7 @@ export default function Main() {
             <NavLink to={"/events"}>
               <div className="planet">
                 <video
-                  src={planet_1}
+                  src={planet_2}
                   autoPlay
                   loop
                   muted
