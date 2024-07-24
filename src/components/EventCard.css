@@ -6,25 +6,12 @@
     background-color: rgba(0, 0, 0, 0.5);
     margin-bottom: 8%;
     padding-bottom: 2.5vh;
-    position: relative;
 }
 
 .eventCard img {
     height: 90%;
     width: 100%;
-    z-index: 1;
     object-fit: cover;
-    margin-bottom: 2%;
-    border-radius: 8px;
-}
-
-.eventDisc{
-    position: absolute;
-    height: 90%;
-    width: 100%;
-    top: 0;
-    display: flex;
-    align-items: center;
     margin-bottom: 2%;
     border-radius: 8px;
 }
@@ -38,14 +25,4 @@
 .eventName p {
     color: #f8bc04;
     margin-bottom: 0;
-}
-
-.eventName button{
-    background: none;
-    border: none;
-}
-
-.hideImg{
-    opacity: 0;
-    transition: all 1s ease;
 }
