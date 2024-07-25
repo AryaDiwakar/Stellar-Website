@@ -41,6 +41,7 @@ export default function Footer() {
               <FaGithub />
             </a>
           </div>
+          </div>
         <div className="dev">
           <p>Muskaan Patni</p>
           <div className="links">
@@ -54,7 +55,6 @@ export default function Footer() {
               <FaGithub />
             </a>
           </div>
-        </div>
         </div>
       </div>
       <div>
