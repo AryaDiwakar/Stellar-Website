@@ -29,6 +29,19 @@ export default function Footer() {
           </div>
         </div>
         <div className="dev">
+          <p>Pradyun Mondal</p>
+          <div className="links">
+            <a
+              href="https://www.linkedin.com/in/pradyun-mondal-77b798289/"
+              target="_blank"
+            >
+              <FaLinkedinIn />
+            </a>
+            <a href="https://github.com/pradyun1611" target="_blank">
+              <FaGithub />
+            </a>
+          </div>
+        <div className="dev">
           <p>Muskaan Patni</p>
           <div className="links">
             <a
@@ -42,19 +55,6 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="dev">
-          <p>Pradyun Mondal</p>
-          <div className="links">
-            <a
-              href="https://www.linkedin.com/in/pradyun-mondal-77b798289/"
-              target="_blank"
-            >
-              <FaLinkedinIn />
-            </a>
-            <a href="https://github.com/pradyun1611" target="_blank">
-              <FaGithub />
-            </a>
-          </div>
         </div>
       </div>
       <div>
