@@ -96,11 +96,24 @@ html {
   z-index: 3;
 }
 
-.title img {
-  width: 12vh;
+/* .title img {
+  width: 100%;
   rotate: 90deg;
-  margin-top: 65vh;
-  margin-right: 0vh;
+} */
+
+.bArrow {
+  width: 12vh;
+  margin-top: 70vh;
+  margin-right: -8vh;
+  background: none;
+  border: none;
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+      opacity: 1;
+  }
 }
 
 @media screen and (max-width: 576px) {

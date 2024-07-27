@@ -12,12 +12,13 @@ import Newsletter from "../components/Newsletter";
 import { NavLink } from "react-router-dom";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
-import blinkingArrow from "../assets/blinking arrow.gif";
+// import blinkingArrow from "../assets/blinking-arrow.gif";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 export default function Main() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [hideTitle, setHideTitle] = useState(false);
-  // const [hideLogoTitle, setHideLogoTitle] = useState(0);
 
   window.addEventListener("scroll", () => {
     if (scrollPosition >= window.innerHeight * 0.1) {
@@ -40,12 +41,22 @@ export default function Main() {
     };
   }, []);
 
+  const scrollToAboutUs = () => {
+    const aboutUsSection = document.getElementById('about_us');
+    if (aboutUsSection) {
+      aboutUsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
       <div>
         <div className={hideTitle ? "title hideTitle" : "title"}>
           <p>Astronomy Club VIT - Stellar</p>
-          <img src={blinkingArrow} />
+          <button className="bArrow" onClick={scrollToAboutUs}>
+            {/* <img src={blinkingArrow} /> */}
+            <FontAwesomeIcon icon={faAnglesDown} size="3x" />
+          </button>
         </div>
         <div className="mainPage">
           <img src={sun} alt="Sun" className="sun" />
