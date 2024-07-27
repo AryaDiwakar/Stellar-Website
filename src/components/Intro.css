@@ -39,29 +39,38 @@ h4 {
 }
 
 .nl img {
-    width: 25vh;
+    width: 25%;
     position: absolute;
 }
 
 #pic1 {
-    top: 20vh;
-    right: 34vh;
+    top: 25%;
+    right: 36.5%;
 }
 
 #pic2 {
-    right: 3vh;
-    top: 10vh;
+    right: 5%;
+    top: 15%;
     filter: brightness(30%);
 }
 
 #pic3 {
-    left: 3vh;
-    top: 10vh;
+    left: 5%;
+    top: 15%;
     filter: brightness(30%);
 }
 
 .nl {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 110%;
+    margin: auto;
+    margin-top: 5%;
+    border: 4px solid #f8bc04;
+    box-shadow: 0 0 10px 5px #fbdc7f;
+    border-radius: 12px;
+    text-align: center;
     height: 60vh;
+    position: relative;
 }
 
 @media screen and (max-width: 576px){
@@ -69,10 +78,15 @@ h4 {
         display: none;
     }
     #pic1{
-        top: 6vh;
+        top: 20%;
+        left: 30%;
+        width: 40%;
     }
     .introComp p{
         font-size:larger; 
+    }
+    .nl {
+        width: 100%;
     }
 }
 

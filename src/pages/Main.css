@@ -96,6 +96,13 @@ html {
   z-index: 3;
 }
 
+.title img {
+  width: 12vh;
+  rotate: 90deg;
+  margin-top: 65vh;
+  margin-right: 0vh;
+}
+
 @media screen and (max-width: 576px) {
   .mainPage {
     display: none;
@@ -112,6 +119,9 @@ html {
     width: 100%;
     z-index: 4;
     background-color: rgba(0, 0, 0, 0.9);
+  }
+  .title img {
+    display: none;
   }
   .hideTitle {
     opacity: 1;
