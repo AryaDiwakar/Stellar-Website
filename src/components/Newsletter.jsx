@@ -6,7 +6,7 @@ import pic3 from '../assets/newsletter/juneNewsLetter (1)_page-0006.jpg'
 
 export default function Newsletter() {
   return (
-    <div className='introComp nl'>
+    <div className='nl'>
         <h1>Newsletter</h1>
         <img id='pic2' src={pic2} alt = "newsletter1"/>
         <img id='pic1' src={pic1} alt = "newsletter2"/>

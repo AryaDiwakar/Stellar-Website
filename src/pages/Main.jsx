@@ -12,6 +12,7 @@ import Newsletter from "../components/Newsletter";
 import { NavLink } from "react-router-dom";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
+import blinkingArrow from "../assets/blinking arrow.gif";
 
 export default function Main() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -44,6 +45,7 @@ export default function Main() {
       <div>
         <div className={hideTitle ? "title hideTitle" : "title"}>
           <p>Astronomy Club VIT - Stellar</p>
+          <img src={blinkingArrow} />
         </div>
         <div className="mainPage">
           <img src={sun} alt="Sun" className="sun" />
