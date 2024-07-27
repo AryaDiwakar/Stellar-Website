@@ -40,20 +40,23 @@ h4 {
 
 .nl img {
     width: 25vh;
-    position: relative;
+    position: absolute;
 }
 
 #pic1 {
-    top: 10vh;
+    top: 20vh;
+    right: 34vh;
 }
 
 #pic2 {
     right: 3vh;
+    top: 10vh;
     filter: brightness(30%);
 }
 
 #pic3 {
     left: 3vh;
+    top: 10vh;
     filter: brightness(30%);
 }
 
