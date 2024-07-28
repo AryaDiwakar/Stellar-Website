@@ -171,3 +171,20 @@ html {
    display: none;
   }
 }
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .sun{
+    margin-left: -25%;
+  }
+  .planets{
+    flex-wrap: wrap;
+    width: 60%;
+    aspect-ratio: 1/1;
+    margin-top: 20vh;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  .planets a{
+    flex: 1 0 50%;
+  }
+}
