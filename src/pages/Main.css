@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 .title {
   position: fixed;
@@ -101,18 +102,21 @@ html {
   rotate: 90deg;
 } */
 
-.bArrow {
-  width: 12vh;
-  margin-top: 70vh;
-  margin-right: -8vh;
+.bArrow{
+  width: 8vh;
+  aspect-ratio: 1/1;
+  position: fixed;
+  z-index: 100;
+  margin-top: 85vh;
+  right: 4vh;
   background: none;
   border: none;
-  animation: blinker 1.5s linear infinite;
+  animation: blinker 2s linear infinite;
 }
 
 @keyframes blinker {
   50% {
-      opacity: 1;
+      opacity: 0;
   }
 }
 
@@ -162,5 +166,8 @@ html {
   }
   .planets a {
     width: 40%;
+  }
+  .bArrow{
+   display: none;
   }
 }

@@ -42,9 +42,9 @@ export default function Main() {
   }, []);
 
   const scrollToAboutUs = () => {
-    const aboutUsSection = document.getElementById('about_us');
+    const aboutUsSection = document.getElementById("about_us");
     if (aboutUsSection) {
-      aboutUsSection.scrollIntoView({ behavior: 'smooth' });
+      aboutUsSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -53,11 +53,11 @@ export default function Main() {
       <div>
         <div className={hideTitle ? "title hideTitle" : "title"}>
           <p>Astronomy Club VIT - Stellar</p>
-          <button className="bArrow" onClick={scrollToAboutUs}>
+        </div>
+        <button className={hideTitle ? "bArrow hideTitle" : "bArrow"} onClick={scrollToAboutUs}>
             {/* <img src={blinkingArrow} /> */}
             <FontAwesomeIcon icon={faAnglesDown} size="3x" />
           </button>
-        </div>
         <div className="mainPage">
           <img src={sun} alt="Sun" className="sun" />
           <Navbar scroll={scrollPosition} />
