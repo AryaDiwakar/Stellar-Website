@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import "./Main.css";
-import sun from "../assets/Sun.png"
+import sun from "../assets/Sun.png";
 import planet_1 from "../assets/planet 1.mp4";
 import planet_2 from "../assets/planet 2.mp4";
 import planet_4 from "../assets/planet 3.mp4";
@@ -13,6 +13,7 @@ import { NavLink } from "react-router-dom";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
 // import blinkingArrow from "../assets/blinking-arrow.gif";
+import hehe from "../assets/2-removebg-preview.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
@@ -47,17 +48,32 @@ export default function Main() {
       aboutUsSection.scrollIntoView({ behavior: "smooth" });
     }
   };
-
+  const [hideUpc, setHideUpc] = useState(false);
+  const hideupc = () => {
+    setHideUpc(!hideUpc);
+  };
   return (
     <>
       <div>
         <div className={hideTitle ? "title hideTitle" : "title"}>
           <p>Astronomy Club VIT - Stellar</p>
         </div>
-        <button className={hideTitle ? "bArrow hideTitle" : "bArrow"} onClick={scrollToAboutUs}>
-            {/* <img src={blinkingArrow} /> */}
-            <FontAwesomeIcon icon={faAnglesDown} size="3x" />
+        <div className={hideUpc ? "heheBoi hideTitle" : "heheBoi"}>
+          <button onClick={hideupc}>
+            <img src={hehe} alt="upcEvents" />
           </button>
+        </div>
+        <div className={hideUpc ? "upcEvents" : "upcEvents hideTitle"}>
+          hellu world
+          <button onClick={hideupc} className="cross">X</button>
+        </div>
+        <button
+          className={hideTitle ? "bArrow hideTitle" : "bArrow"}
+          onClick={scrollToAboutUs}
+        >
+          {/* <img src={blinkingArrow} /> */}
+          <FontAwesomeIcon icon={faAnglesDown} size="3x" />
+        </button>
         <div className="mainPage">
           <img src={sun} alt="Sun" className="sun" />
           <Navbar scroll={scrollPosition} />

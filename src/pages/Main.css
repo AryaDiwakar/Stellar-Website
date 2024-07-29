@@ -120,6 +120,46 @@ html {
   }
 }
 
+.heheBoi{
+  z-index: 100;
+  position: relative;
+  top: 20vh;
+  right: 0;
+  width: 100%;
+}
+
+.heheBoi img{
+   width: 35vh;
+   position: absolute;
+  animation: moveImage 15s linear infinite;
+}
+
+@keyframes moveImage {
+  0% {
+      left: 100%;
+  }
+  100% {
+      left: -35vh;
+  }
+}
+
+.upcEvents{
+  position: absolute;
+  z-index: 1000;
+  width: 65vw;
+  height: 70vh;
+  left: 52%;
+  top: 20%;
+  transform: translate(-50%);
+  background-color: red;
+}
+.upcEvents button{
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
 @media screen and (max-width: 576px) {
   .mainPage {
     display: none;
