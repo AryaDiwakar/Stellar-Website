@@ -38,9 +38,15 @@ h4 {
     2px -2px 0 #000;
 }
 
-.nl img {
+.nl a{
     width: 25%;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.nl p{
+    margin-top: 4%;
 }
 
 #pic1 {
