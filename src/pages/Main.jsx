@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import "./Main.css";
-import sun from "../assets/Sun.png";
+import sun from "../assets/Sun.png"
 import planet_1 from "../assets/planet 1.mp4";
 import planet_2 from "../assets/planet 2.mp4";
 import planet_4 from "../assets/planet 3.mp4";

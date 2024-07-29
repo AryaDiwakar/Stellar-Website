@@ -124,3 +124,31 @@ h4 {
     font-size: 26px;
     transition: all 1s ease;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .introComp, .nl{
+        width: 75%;
+        height: 70vh;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scroll-behavior: smooth;
+    }
+    .introComp h1, .nl h1{
+        padding-top: 3%;
+    }
+    #pic2{
+       bottom: 3%;
+       top: auto;
+    }
+    #pic1{
+        top: 35%;
+        bottom: auto;
+    }
+    .clicked{
+        font-size: larger;
+        color: #f8bc04;
+    }
+    .notClicked{
+        font-size: medium;
+    }
+}
