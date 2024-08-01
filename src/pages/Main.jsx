@@ -65,7 +65,7 @@ export default function Main() {
           </button>
         </div>
         <div className={hideUpc ? "upcEvents" : "upcEvents hideTitle"}>
-        <button onClick={hideupc} className="cross"><FontAwesomeIcon icon={faCircleXmark} size="2x"/></button>
+        <button onClick={hideupc} className="cross"><FontAwesomeIcon icon={faXmark} size="2x"/></button>
          <h3> Upocoming Events!!!</h3>
           
           <div className="upcEventsCont">

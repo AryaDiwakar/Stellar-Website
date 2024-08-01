@@ -162,11 +162,18 @@ html {
   border: none;
   position: absolute;
   right: 0;
+  width: 3%;
+  border-radius: 15px;
+  aspect-ratio: 1/1;
 }
+.upcEvents button:hover{
+  rotate: 90deg;
+  transition: rotate 0.2s ease;
+}
+
 .upcEvents h3{
   margin-block: 2%;
 }
-
 .upcEventsCont{
   display: flex;
   margin-inline: 2%;
