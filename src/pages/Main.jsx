@@ -6,6 +6,7 @@ import planet_1 from "../assets/planet 1.mp4";
 import planet_2 from "../assets/planet 2.mp4";
 import planet_4 from "../assets/planet 3.mp4";
 import planet_3 from "../assets/planet 4.mp4";
+import testImg from "../assets/events/one.jpg"
 import Intro from "../components/Intro";
 import Events from "../components/Events.jsx";
 import Newsletter from "../components/Newsletter";
@@ -15,7 +16,7 @@ import Footer from "../components/Footer";
 // import blinkingArrow from "../assets/blinking-arrow.gif";
 import hehe from "../assets/2-removebg-preview.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import { faAnglesDown, faCircleXmark, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export default function Main() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -60,19 +61,29 @@ export default function Main() {
         </div>
         <div className={hideUpc ? "heheBoi hideTitle" : "heheBoi"}>
           <button onClick={hideupc}>
-            <img src={hehe} alt="upcEvents" />
+            <img src={hehe} alt="upcEventsImg" />
           </button>
         </div>
         <div className={hideUpc ? "upcEvents" : "upcEvents hideTitle"}>
-          hellu world
-          <button onClick={hideupc} className="cross">X</button>
+        <button onClick={hideupc} className="cross"><FontAwesomeIcon icon={faCircleXmark} size="2x"/></button>
+         <h3> Upocoming Events!!!</h3>
+          
+          <div className="upcEventsCont">
+          <div><img src={testImg} alt="oneImg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore error repudiandae dolore neque autem amet ullam vel deserunt laboriosam aliquam, libero, molestias aliquid quasi nobis illo exercitationem</p></div>
+          <div><img src={testImg} alt="twoImg" /><p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore error repudiandae dolore neque autem amet ullam vel deserunt laboriosam aliquam, libero, molestias aliquid quasi nobis illo exercitationem</p></div>
+          <div><img  src={testImg} alt="threeImg" /><p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore error repudiandae dolore neque autem amet ullam vel deserunt laboriosam aliquam, libero, molestias aliquid quasi nobis illo exercitationem</p></div>
+          </div>
         </div>
         <button
           className={hideTitle ? "bArrow hideTitle" : "bArrow"}
           onClick={scrollToAboutUs}
         >
           {/* <img src={blinkingArrow} /> */}
-          <FontAwesomeIcon icon={faAnglesDown} size="3x" />
+          <FontAwesomeIcon icon={faAnglesDown} size="3x" bounce />
         </button>
         <div className="mainPage">
           <img src={sun} alt="Sun" className="sun" />
