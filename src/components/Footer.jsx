@@ -15,7 +15,8 @@ export default function Footer() {
       <div className="footerRow">
         <div className="dev">Designed & Developed by:</div>
         <div className="dev">
-          <p>Prathmesh Gahukar</p>
+          <p className="deskP">Prathmesh Gahukar</p>
+          <p className="tab">Prathmesh</p>
           <div className="links">
             <a
               href="https://www.linkedin.com/in/prathmeshg374/"
@@ -29,7 +30,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="dev">
-          <p>Pradyun Mondal</p>
+          <p className="deskP">Pradyun Mondal</p>
+          <p className="tab">Pradyun</p>
           <div className="links">
             <a
               href="https://www.linkedin.com/in/pradyun-mondal-77b798289/"
@@ -43,7 +45,8 @@ export default function Footer() {
           </div>
           </div>
         <div className="dev">
-          <p>Muskaan Patni</p>
+          <p className="deskP">Muskaan Patni</p>
+          <p className="tab">Muskaan</p>
           <div className="links">
             <a
               href="https://www.linkedin.com/in/muskaan-patni-08483820a/"

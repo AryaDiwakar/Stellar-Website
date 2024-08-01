@@ -55,6 +55,10 @@ footer div p {
 .stellarCon{
   margin-block: 0 5%;
 }
+.tab{
+display: none;
+}
+
 @media screen and (max-width: 576px){
   footer{
     flex-direction: column;
@@ -76,6 +80,20 @@ footer div p {
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   .footerRow{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+  .footerRow :first-child{
+    grid-area: 1/1/2/4 ;
+    margin-bottom: 2%;
+  }
+  footer{
+    border-radius: 20px 20px 0 0;
+  }
+  .deskP{
+    display: none;
+  }
+  .dev .tab{
+    display: contents;
   }
 }

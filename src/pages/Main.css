@@ -94,7 +94,7 @@ html {
 .footer {
   width: 100%;
   position: absolute;
-  top: 495vh;
+  top: 500vh;
   z-index: 3;
 }
 
@@ -270,5 +270,19 @@ margin-top: 3%;
   }
   .planets video:hover {
     width: 90%;
+  }
+  .upcEvents{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    height: 72vh;
+  }
+  .upcEvents button{
+    width: 5%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 576px){
+  .mainPage{
+    display: none;
   }
 }
