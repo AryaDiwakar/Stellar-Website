@@ -59,7 +59,7 @@ export default function Main() {
         <div className={hideTitle ? "title hideTitle" : "title"}>
           <p>Astronomy Club VIT - Stellar</p>
         </div>
-        <div className={hideUpc ? "heheBoi hideTitle" : "heheBoi"}>
+        {/* <div className={hideUpc ? "heheBoi hideTitle" : "heheBoi"}>
           <button onClick={hideupc}>
             <img src={hehe} alt="upcEventsImg" />
           </button>
@@ -77,7 +77,7 @@ export default function Main() {
           <div><img  src={testImg} alt="threeImg" /><p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore error repudiandae dolore neque autem amet ullam vel deserunt laboriosam aliquam, libero, molestias aliquid quasi nobis illo exercitationem</p></div>
           </div>
-        </div>
+        </div> */}
         <button
           className={hideTitle ? "bArrow hideTitle" : "bArrow"}
           onClick={scrollToAboutUs}
