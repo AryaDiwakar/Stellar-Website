@@ -49,6 +49,14 @@ h4 {
     margin-top: 4%;
 }
 
+.nl h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 2%;
+    font-family: 'Audiowide', sans-serif;
+    display: inline-block;
+}
+
 #pic1 {
     top: 25%;
     right: 36.5%;
