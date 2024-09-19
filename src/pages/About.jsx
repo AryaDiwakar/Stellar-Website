@@ -48,10 +48,10 @@ export default function About() {
         <div className='coord'>
           <div className='coord_pic'>
             <img src={coordinator} alt='Mrs. Selva Rani B'/>
-            <p>Dr. Selva Rani Ma'am</p>
+            <p>Dr. Selva Rani B</p>
           </div>
           <div className='coord_desc'>
-            <p>Dr. Selva Rani Ma'am, the driving force behind VIT-STELLAR. With a profound passion for astronomy and a dedication to nurturing young minds, she is committed to making the wonders of the universe accessible to all. Under her guidance, VIT-STELLAR has become a hub for astronomy enthusiasts, offering a platform to explore, learn, and share the magic of the cosmos.</p>
+            <p>Dr. Selva Rani B, the driving force behind VIT-STELLAR. With a profound passion for astronomy and a dedication to nurturing young minds, she is committed to making the wonders of the universe accessible to all. Under her guidance, VIT-STELLAR has become a hub for astronomy enthusiasts, offering a platform to explore, learn, and share the magic of the cosmos.</p>
           </div>
         </div>
         <div className="foot">
