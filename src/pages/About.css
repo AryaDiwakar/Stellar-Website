@@ -107,7 +107,7 @@
 
   @media screen and (max-width: 768px) {
     .coord_pic {
-        width: 100%;
+        width: 40%;
     }
     .coord_desc {
         width: 100%;
