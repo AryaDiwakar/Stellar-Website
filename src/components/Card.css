@@ -23,12 +23,12 @@
 
 .board_name {
     height: 20%;
-    padding: 2.5vh;
+    padding: 1%;
     padding-bottom: 0;
 }
 
 .board_post {
-    padding: 1.5vh;
+    padding: 0.6%;
 }
 
 .board_name p {
