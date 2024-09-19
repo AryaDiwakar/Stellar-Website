@@ -33,16 +33,16 @@ export default function About() {
         </div>
         <h2>Our Board</h2>
         <div className='cards_cont'>
-          <Card img = {aniket} name = {"Aniket Rai"} post = {"Chairperson"} alt = "board_member"/>
-          <Card img = {vishwajith} name = {"Vishwajith Prabhakar"} post = {"Secretary"} alt = "board_member"/>
-          <Card img = {devangi} name = {"Devangi Arora"} post = {"Vice Chairperson"} alt = "board_member"/>
-          <Card img = {aayush} name = {"Aayush Nagpal"} post = {"Co-Secretary"} alt = "board_member"/>
-          <Card img = {muskaan} name = {"Muskaan Patni"} post = {"Technical Head"} alt = "board_member"/>
-          <Card img = {shreejata} name = {"Shreejata Gupta"} post = {"Events Head"} alt = "board_member"/>
-          <Card img = {sanchita} name = {"Sanchita Jindal"} post = {"Management Head"} alt = "board_member"/>
-          <Card img = {swayam} name = {"Swayam Galgalikar"} post = {"Finance Head"} alt = "board_member"/>
-          <Card img = {supransha} name = {"⁠Supransha Thapa"} post = {"Design Head"} alt = "board_member"/>
-          <Card img = {avanish} name = {"⁠Avanish Gharat"} post = {"Editorial Head"} alt = "board_member"/>
+          <Card img = {aniket} name = {"Aniket Rai"} post = {"Chairperson"} linkedin = {"https://www.linkedin.com/in/aniket-rai-694b5b244/"} alt = "board_member"/>
+          <Card img = {vishwajith} name = {"Vishwajith Prabhakar"} post = {"Secretary"} linkedin = {"https://www.linkedin.com/in/vishwajith-prabhakar-506b08229/"} alt = "board_member"/>
+          <Card img = {devangi} name = {"Devangi Arora"} post = {"Vice Chairperson"} linkedin = {"https://www.linkedin.com/in/devangi-arora/"} alt = "board_member"/>
+          <Card img = {aayush} name = {"Aayush Nagpal"} post = {"Co-Secretary"} linkedin = {"https://www.linkedin.com/in/aayush-nagpal-71022b28a/"} alt = "board_member"/>
+          <Card img = {muskaan} name = {"Muskaan Patni"} post = {"Technical Head"} linkedin = {"https://www.linkedin.com/in/muskaan-patni-08483820a/ "} alt = "board_member"/>
+          <Card img = {shreejata} name = {"Shreejata Gupta"} post = {"Events Head"} linkedin = {"https://www.linkedin.com/in/shreejata-gupta-385055275/"} alt = "board_member"/>
+          <Card img = {sanchita} name = {"Sanchita Jindal"} post = {"Management Head"} linkedin = {"https://www.linkedin.com/in/sanchita-jindal-358790289/"} alt = "board_member"/>
+          <Card img = {swayam} name = {"Swayam Galgalikar"} post = {"Finance Head"} linkedin = {"https://www.linkedin.com/in/swayam-galgalikar-ab908a269/"} alt = "board_member"/>
+          <Card img = {supransha} name = {"⁠Supransha Thapa"} post = {"Design Head"} linkedin = {"https://www.linkedin.com/in/supransha-thapa-b4824332a"} alt = "board_member"/>
+          <Card img = {avanish} name = {"⁠Avanish Gharat"} post = {"Editorial Head"} linkedin = {"https://www.linkedin.com/in/avanish-gharat/"} alt = "board_member"/>
         </div>
         <h2>Our Faculty Coordinator</h2>
         <div className='coord'>
@@ -51,7 +51,7 @@ export default function About() {
             <p>Dr. Selva Rani B</p>
           </div>
           <div className='coord_desc'>
-            <p>Dr. Selva Rani B, the driving force behind VIT-STELLAR. With a profound passion for astronomy and a dedication to nurturing young minds, she is committed to making the wonders of the universe accessible to all. Under her guidance, VIT-STELLAR has become a hub for astronomy enthusiasts, offering a platform to explore, learn, and share the magic of the cosmos.</p>
+            <p>Dr. Selva Rani Ma'am, the driving force behind VIT-STELLAR. With a profound passion for astronomy and a dedication to nurturing young minds, she is committed to making the wonders of the universe accessible to all. Under her guidance, VIT-STELLAR has become a hub for astronomy enthusiasts, offering a platform to explore, learn, and share the magic of the cosmos.</p>
           </div>
         </div>
         <div className="foot">
