@@ -64,13 +64,13 @@ h4 {
 
 #pic2 {
     right: 5%;
-    top: 15%;
+    top: 20%;
     filter: brightness(30%);
 }
 
 #pic3 {
     left: 5%;
-    top: 15%;
+    top: 20%;
     filter: brightness(30%);
 }
 
@@ -88,19 +88,20 @@ h4 {
 }
 
 @media screen and (max-width: 576px){
-    /* #pic2,#pic3{
-        display: none;
-    } */
+    #pic2,#pic3{
+        top: 20%;
+    }
     #pic1{
-        top: 50%;
-        left: 30%;
-        width: 40%;
+        top: 40%;
+        left: 35%;
+        width: 30%;
     }
     .introComp p{
         font-size:larger; 
     }
     .nl {
         width: 100%;
+        height: 40vh;
     }
     .vit{
         padding-top: 5%;

@@ -219,7 +219,7 @@ margin-top: 3%;
     width: 100%;
     top: 5rem;
     left: 0;
-    grid-template-rows: 150vh 80vh 80vh 80vh 80vh;
+    grid-template-rows: 150vh 75vh 50vh 50vh 50vh;
   }
   .intro section,
   .intro .introComp {
@@ -233,6 +233,9 @@ margin-top: 3%;
   }
   .planets a {
     width: 50%;
+  }
+  .footer{
+    top: 390vh;
   }
 }
 

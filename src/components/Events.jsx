@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.css";
+import './Events.css'
 import astro from "../assets/events/one.jpg";
 import celestial from "../assets/events/two.jpg";
 import cosmic from "../assets/events/three.jpg";
@@ -12,7 +13,7 @@ export default function Events() {
       <h1>Events</h1>
       <div
         id="carouselExampleCaptions"
-        className="carousel slide mx-3 mb-4 border"
+        className="carousel slide mx-3 mb-3"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators">
@@ -51,8 +52,8 @@ export default function Events() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={astro} className="d-block w-100" alt="Astro Symposium" />
-            <div className="carousel-caption d-none d-md-block">
+            <img src={astro} className="d-block w-100" alt="Astro Symposium"/>
+            <div className="carousel-caption d-md-block">
               <h4>Astro Symposium</h4>
             </div>
           </div>
@@ -62,19 +63,19 @@ export default function Events() {
               className="d-block w-100"
               alt="Celestial Dive"
             />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-md-block">
               <h4>Celestial Dive</h4>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={cosmic} className="d-block w-100" alt="Cosmic Walk" />
-            <div className="carousel-caption d-none d-md-block">
+            <img src={cosmic} className="d-block w-100" alt="Cosmic Walk"/>
+            <div className="carousel-caption d-md-block">
               <h4>Cosmic Walk</h4>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={skyforge} className="d-block w-100" alt="SkyForge" />
-            <div className="carousel-caption d-none d-md-block">
+            <img src={skyforge} className="d-block w-100" alt="SkyForge"/>
+            <div className="carousel-caption d-md-block">
               <h4>SkyForge</h4>
             </div>
           </div>
@@ -84,7 +85,7 @@ export default function Events() {
               className="d-block w-100"
               alt="Yantra Event on JWST"
             />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-md-block">
               <h4>Yantra Event on JWST</h4>
             </div>
           </div>

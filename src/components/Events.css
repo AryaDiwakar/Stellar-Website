@@ -2,3 +2,14 @@ h3 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
+
+@media screen and (max-width: 576px) {
+    .carousel-item img {
+        object-fit: contain;
+        height: 30vh;
+
+    }
+    .carousel-caption{
+        display: none;
+    }
+}
