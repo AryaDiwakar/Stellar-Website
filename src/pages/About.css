@@ -106,11 +106,14 @@
   }
 
   @media screen and (max-width: 768px) {
+    .coord{
+      width: 85%;
+    }
     .coord_pic {
         width: 100%;
     }
     .coord_desc {
         width: 100%;
-        padding-top: 10vh;
+        /* padding-top: ; */
     }
   }
