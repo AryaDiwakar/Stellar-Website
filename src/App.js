@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Main from "./pages/Main";

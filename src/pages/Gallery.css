@@ -33,11 +33,16 @@
 @media screen and (max-width: 768px) {
     .galleryBox {
       grid-template-columns: 1fr 1fr;
+      margin-bottom: 10%;
     }
   }
 
   @media screen and (max-width: 576px) {
     .galleryBox {
       grid-template-columns: 1fr;
+      width: 90%;
+    }
+    .galleryImg{
+      height: 50vh;
     }
   }

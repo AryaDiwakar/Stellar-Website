@@ -9,7 +9,7 @@ export default function EventCard(props) {
   return (
     <div className="eventCard">
         <img src={props.img} className={displayText ? "hideImg": "showImg"}/>
-        <div className={displayText ? "eventDisc showImg": "eventDisc hideImg"}><p>{props.desc}</p></div>
+        <div className={displayText ? "eventDisc showImg": "eventDisc hideDesc"}><p>{props.desc}</p></div>
         <div className="eventName"><button onClick={eventDisc}><p>{props.name}</p></button></div>
     </div>
   );

@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   scrollbar-width: none;
+  user-select: none;
 }
 .title {
   position: fixed;
@@ -231,7 +232,7 @@ margin-top: 3%;
     margin-inline: 3%;
   }
   .planets a {
-    width: 40%;
+    width: 50%;
   }
 }
 

@@ -88,11 +88,11 @@ h4 {
 }
 
 @media screen and (max-width: 576px){
-    #pic2,#pic3{
+    /* #pic2,#pic3{
         display: none;
-    }
+    } */
     #pic1{
-        top: 20%;
+        top: 50%;
         left: 30%;
         width: 40%;
     }
@@ -101,6 +101,9 @@ h4 {
     }
     .nl {
         width: 100%;
+    }
+    .vit{
+        padding-top: 5%;
     }
 }
 
