@@ -1,11 +1,11 @@
 import React from "react";
 import "./Intro.css";
 import './Events.css'
-import astro from "../assets/events/one.jpg";
-import celestial from "../assets/events/two.jpg";
-import cosmic from "../assets/events/three.jpg";
-import skyforge from "../assets/events/four.jpg";
-import yantra from "../assets/events/five.jpg";
+import astro from "../assets/events/one.webp";
+import celestial from "../assets/events/two.webp";
+import cosmic from "../assets/events/three.webp";
+import skyforge from "../assets/events/four.webp";
+import yantra from "../assets/events/five.webp";
 
 export default function Events() {
   return (

@@ -1,19 +1,19 @@
 import React from 'react';
 import HoriNav from "../components/HoriNav";
 import './About.css';
-import aayush from '../assets/about us/Aayush nagpal co-secretary.jpg';
-import aniket from '../assets/about us/Aniket rai chairperson.jpg';
-import avanish from '../assets/about us/Avanish Gharat Editorial Head.jpg';
-import devangi from '../assets/about us/Devangi Arora Vice- chairperson.jpg';
-import muskaan from '../assets/about us/Muskaan Patni Technical Head.jpg';
-import sanchita from '../assets/about us/Sanchita Jindal Management Head.jpg';
-import shreejata from '../assets/about us/Shreejata gupta events head.jpg';
-import supransha from '../assets/about us/Supransha thapa design head.jpg';
-import swayam from '../assets/about us/Swayam Galgalikar Finance  Head.jpg';
-import vishwajith from '../assets/about us/Vishwajith prabhakar secretary.jpg';
-import board from '../assets/about us/Board grp picture.jpg';
+import aayush from '../assets/about us/Aayush nagpal co-secretary.webp';
+import aniket from '../assets/about us/Aniket rai chairperson.webp';
+import avanish from '../assets/about us/Avanish Gharat Editorial Head.webp';
+import devangi from '../assets/about us/Devangi Arora Vice- chairperson.webp';
+import muskaan from '../assets/about us/Muskaan Patni Technical Head.webp';
+import sanchita from '../assets/about us/Sanchita Jindal Management Head.webp';
+import shreejata from '../assets/about us/Shreejata gupta events head.webp';
+import supransha from '../assets/about us/Supransha thapa design head.webp';
+import swayam from '../assets/about us/Swayam Galgalikar Finance  Head.webp';
+import vishwajith from '../assets/about us/Vishwajith prabhakar secretary.webp';
+import board from '../assets/about us/Board grp picture.webp';
 import Card from '../components/Card';
-import coordinator from '../assets/about us/coordinator.jpg';
+import coordinator from '../assets/about us/coordinator.webp';
 import Footer from '../components/Footer';
 
 export default function About() {

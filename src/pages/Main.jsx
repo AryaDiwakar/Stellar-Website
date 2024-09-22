@@ -1,20 +1,19 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import "./Main.css";
-import sun from "../assets/Sun.png";
+import sun from "../assets/Sun.webp";
 import planet_1 from "../assets/planet 1.mp4";
 import planet_2 from "../assets/planet 2.mp4";
 import planet_4 from "../assets/planet 3.mp4";
 import planet_3 from "../assets/planet 4.mp4";
-import testImg from "../assets/events/one.jpg"
+import testImg from "../assets/events/one.webp"
 import Intro from "../components/Intro";
 import Events from "../components/Events.jsx";
 import Newsletter from "../components/Newsletter";
 import { NavLink } from "react-router-dom";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
-// import blinkingArrow from "../assets/blinking-arrow.gif";
-import hehe from "../assets/2-removebg-preview.png";
+import hehe from "../assets/2-removebg-preview.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown, faCircleXmark, faXmark } from "@fortawesome/free-solid-svg-icons";
 

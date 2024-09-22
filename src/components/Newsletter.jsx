@@ -1,9 +1,9 @@
 import React from "react";
 import "./Intro.css";
 import { NavLink } from "react-router-dom";
-import pic1 from "../assets/newsletter/juneNewsLetter (1)_page-0001.jpg";
-import pic2 from "../assets/newsletter/juneNewsLetter (1)_page-0004.jpg";
-import pic3 from "../assets/newsletter/juneNewsLetter (1)_page-0006.jpg";
+import pic1 from "../assets/newsletter/juneNewsLetter (1)_page-0001.webp";
+import pic2 from "../assets/newsletter/juneNewsLetter (1)_page-0004.webp";
+import pic3 from "../assets/newsletter/juneNewsLetter (1)_page-0006.webp";
 
 export default function Newsletter() {
   return (

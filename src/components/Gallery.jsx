@@ -1,10 +1,10 @@
 import React from "react";
 import "./Intro.css";
-import pic1 from '../assets/gallery/IMG-20230922-WA0043-1.jpg'
-import pic2 from '../assets/gallery/IMG-20230925-WA0023.jpg'
-import pic3 from '../assets/gallery/IMG-20230925-WA0025.jpg'
-import pic4 from '../assets/gallery/IMG20230920132933.jpg'
-import pic5 from '../assets/gallery/IMG20230922134743_01.jpg'
+import pic1 from '../assets/gallery/IMG-20230922-WA0043-1.webp'
+import pic2 from '../assets/gallery/IMG-20230925-WA0023.webp'
+import pic3 from '../assets/gallery/IMG-20230925-WA0025.webp'
+import pic4 from '../assets/gallery/IMG20230920132933.webp'
+import pic5 from '../assets/gallery/IMG20230922134743_01.webp'
 
 export default function Gallery() {
   return (

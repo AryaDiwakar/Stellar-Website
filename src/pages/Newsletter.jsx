@@ -1,12 +1,12 @@
 import React from "react";
 import HoriNav from "../components/HoriNav";
 import "./Newsletter.css";
-import page1 from '../assets/newsletter/juneNewsLetter (1)_page-0001.jpg';
-import page2 from '../assets/newsletter/juneNewsLetter (1)_page-0002.jpg';
-import page3 from '../assets/newsletter/juneNewsLetter (1)_page-0003.jpg';
-import page4 from '../assets/newsletter/juneNewsLetter (1)_page-0004.jpg';
-import page5 from '../assets/newsletter/juneNewsLetter (1)_page-0005.jpg';
-import page6 from '../assets/newsletter/juneNewsLetter (1)_page-0006.jpg';
+import page1 from '../assets/newsletter/juneNewsLetter (1)_page-0001.webp';
+import page2 from '../assets/newsletter/juneNewsLetter (1)_page-0002.webp';
+import page3 from '../assets/newsletter/juneNewsLetter (1)_page-0003.webp';
+import page4 from '../assets/newsletter/juneNewsLetter (1)_page-0004.webp';
+import page5 from '../assets/newsletter/juneNewsLetter (1)_page-0005.webp';
+import page6 from '../assets/newsletter/juneNewsLetter (1)_page-0006.webp';
 import Footer from "../components/Footer";
 
 export default function Newsletter() {

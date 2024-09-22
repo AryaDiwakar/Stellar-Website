@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./HoriNav.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Dropdown from 'react-bootstrap/Dropdown';

@@ -2,12 +2,12 @@ import React from "react";
 import HoriNav from "../components/HoriNav";
 import "./Events.css";
 import events from '../components/Events.json';
-import one from "../assets/events/one.jpg";
-import two from "../assets/events/two.jpg";
-import three from "../assets/events/three.jpg";
-import four from "../assets/events/four.jpg";
-import five from "../assets/events/five.jpg";
-import six from "../assets/events/six.jpg";
+import one from "../assets/events/one.webp";
+import two from "../assets/events/two.webp";
+import three from "../assets/events/three.webp";
+import four from "../assets/events/four.webp";
+import five from "../assets/events/five.webp";
+import six from "../assets/events/six.webp";
 import Card from "../components/EventCard";
 import Footer from "../components/Footer";
 
