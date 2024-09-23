@@ -85,7 +85,7 @@ export default function Main() {
           <FontAwesomeIcon icon={faAnglesDown} size="3x" bounce />
         </button>
         <div className="mainPage">
-          <img src={sun} alt="Sun" className="sun" />
+          <img src={sun} alt="Sun" className="sun" loading="eager"/>
           <Navbar scroll={scrollPosition} />
         </div>
         <div className="intro">
