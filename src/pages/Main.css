@@ -219,8 +219,9 @@ margin-top: 3%;
     width: 100%;
     top: 5rem;
     left: 0;
-    grid-template-rows: 150vh 75vh 50vh 50vh 50vh;
+    grid-template-rows: 150dvh 80dvh 50dvh 50dvh 50dvh; 
   }
+
   .intro section,
   .intro .introComp {
     width: 100%;
@@ -235,7 +236,7 @@ margin-top: 3%;
     width: 50%;
   }
   .footer{
-    top: 390vh;
+    top: 390dvh;
   }
 }
 
