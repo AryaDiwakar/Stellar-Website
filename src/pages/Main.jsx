@@ -16,6 +16,7 @@ import Footer from "../components/Footer";
 import hehe from "../assets/2-removebg-preview.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown, faCircleXmark, faXmark } from "@fortawesome/free-solid-svg-icons";
+import HoriNav from "../components/HoriNav";
 
 export default function Main() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -53,6 +54,7 @@ export default function Main() {
     setHideUpc(!hideUpc);
   };
   return (
+    
     <>
       <div>
         <div className={hideTitle ? "title hideTitle" : "title"}>
