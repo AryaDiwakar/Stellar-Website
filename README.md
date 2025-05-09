@@ -1,1 +1,1 @@
-VIT - Stellar's Website
+VIT - Stellar's official Website
